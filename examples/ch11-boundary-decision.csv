@@ -1,0 +1,6 @@
+boundary,authoritative_fact_or_effect,owner,permitted_consumer,forbidden_inference_or_effect,shared_deploy_M,separate_service_S
+Document receipt source,Document receipt event and source version,Document Service,Authorized receipt adapter,R7 satisfaction from receipt,External source,External source
+Receipt adapter or view,Validated receipt-only view and freshness,Engineering with Security object access,Authorized portal view,Eligibility decision or other learner view,Internal module,Receipt View service and private state
+Policy wording,Approved versioned explanation not policy decision authority,Policy,Portal and authorized staff,Model-generated rule or receipt equals satisfaction,Internal module,Policy Content service with version contract
+Staff review draft,Reviewable draft only after separate approval,Staff workflow owner with Policy and Security,Authorized reviewer,Independent send learner write eligibility or case creation,Conditional module,Conditional Draft service
+Learner portal,Accessible approved receipt view and accepted human route,Product and release owners,Learner authorized for own object,HTTP success equals completion,Shared deployment,Consumer of service APIs

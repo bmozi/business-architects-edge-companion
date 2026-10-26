@@ -1,0 +1,39 @@
+{
+  "scope": "Fictional Harbor teaching fixtures, based on CloudEvents specification 1.0.2; no real broker or learner",
+  "on_wire_specversion": "1.0",
+  "events": [
+    {
+      "specversion": "1.0",
+      "id": "evt-rev-108",
+      "source": "https://events.harbor.example/document-receipts",
+      "type": "example.harbor.r7.receipt.recorded.v1",
+      "subject": "requirements/R7/receipts/rev_108",
+      "time": "2026-10-26T16:00:00Z",
+      "datacontenttype": "application/json",
+      "data": {"learnerRef": "lrn_042", "receiptEventId": "rev_108", "receiptStatus": "RECEIVED_FOR_REVIEW", "learnerSequence": 7, "sourceSchemaVersion": "doc-receipt/2"}
+    },
+    {
+      "specversion": "1.0",
+      "id": "evt-rev-109",
+      "source": "https://events.harbor.example/document-receipts",
+      "type": "example.harbor.r7.receipt.recorded.v1",
+      "subject": "requirements/R7/receipts/rev_109",
+      "time": "2026-10-26T16:05:00Z",
+      "datacontenttype": "application/json",
+      "data": {"learnerRef": "lrn_042", "receiptEventId": "rev_109", "receiptStatus": "RECEIVED_FOR_REVIEW", "learnerSequence": 8, "sourceSchemaVersion": "doc-receipt/2"}
+    },
+    {
+      "specversion": "1.0",
+      "id": "evt-rev-110",
+      "source": "https://events.harbor.example/document-receipts",
+      "type": "example.harbor.r7.receipt.recorded.v1",
+      "subject": "requirements/R7/receipts/rev_110",
+      "time": "2026-10-26T16:10:00Z",
+      "datacontenttype": "application/json",
+      "data": {"learnerRef": "lrn_042", "receiptEventId": "rev_110", "receiptStatus": "RECEIVED_FOR_REVIEW", "learnerSequence": 10, "sourceSchemaVersion": "doc-receipt/2"}
+    }
+  ],
+  "example_delivery_order": ["evt-rev-109", "evt-rev-108", "evt-rev-109", "evt-rev-110"],
+  "initial_consumer_sequence": 6,
+  "consumer_gap_policy": "Hold sequence 10 while 9 is missing and reconcile source before projection"
+}

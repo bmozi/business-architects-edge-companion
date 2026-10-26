@@ -1,0 +1,193 @@
+openapi: 3.2.1
+info:
+  title: Harbor R7 receipt and proposed staff-draft API
+  version: 0.1.0-proposed
+  description: >-
+    Fictional teaching contract only. Receipt is not requirement satisfaction.
+    The staff-draft POST is not approved or available to the existing assistant.
+servers:
+  - url: https://api.harbor.example
+security:
+  - BearerAuth: []
+paths:
+  /v1/learners/{learnerId}/requirements/R7/receipt:
+    get:
+      operationId: getR7Receipt
+      summary: Read one authorized learner's R7 document receipt state
+      description: Does not determine requirement satisfaction.
+      parameters:
+        - name: learnerId
+          in: path
+          required: true
+          schema: {type: string, pattern: '^lrn_[A-Za-z0-9]+$'}
+      responses:
+        '200':
+          description: Authorized receipt view, not a satisfaction decision
+          headers:
+            Cache-Control:
+              schema: {type: string, example: 'private, no-store'}
+          content:
+            application/json:
+              schema: {$ref: '#/components/schemas/ReceiptView'}
+              example:
+                learnerId: lrn_042
+                requirement: R7
+                receiptStatus: RECEIVED_FOR_REVIEW
+                receiptEventId: rev_108
+                policyVersion: R7-POL-2026-04
+                observedAt: '2026-10-26T16:00:00Z'
+        '401': {$ref: '#/components/responses/Unauthenticated'}
+        '404': {$ref: '#/components/responses/NotVisible'}
+        '429': {$ref: '#/components/responses/RateLimited'}
+        '503': {$ref: '#/components/responses/Unavailable'}
+  /v1/staff/r7-explanation-drafts:
+    post:
+      operationId: createR7ReviewDraft
+      summary: Propose a staff-review draft; no learner-facing effect
+      description: >-
+        Hypothetical future staff-client operation only. Not available to the
+        existing AI assistant. Idempotency-Key is scoped to principal and route.
+        Same key and identical body replays the stored result within a published
+        retention window; changed body conflicts. After expiry, reconcile by
+        operationId through an authorized lookup before retrying with a new key.
+        Actual retention value, lookup and atomicity need implementation evidence.
+      parameters:
+        - name: Idempotency-Key
+          in: header
+          required: true
+          schema: {type: string, minLength: 8, maxLength: 128}
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: {$ref: '#/components/schemas/DraftRequest'}
+      responses:
+        '201':
+          description: Draft stored for staff review, not sent
+          headers:
+            Location:
+              schema: {type: string, example: '/v1/staff/r7-explanation-drafts/drf_512'}
+            Cache-Control:
+              schema: {type: string, example: 'no-store'}
+          content:
+            application/json:
+              schema: {$ref: '#/components/schemas/DraftResult'}
+              example: {draftId: drf_512, reviewState: AWAITING_STAFF_REVIEW, operationId: op-7c91}
+        '400': {$ref: '#/components/responses/InvalidRequest'}
+        '401': {$ref: '#/components/responses/Unauthenticated'}
+        '403': {$ref: '#/components/responses/Forbidden'}
+        '409': {$ref: '#/components/responses/Conflict'}
+        '429': {$ref: '#/components/responses/RateLimited'}
+        '503': {$ref: '#/components/responses/Unavailable'}
+  /v1/staff/r7-explanation-drafts/by-operation/{operationId}:
+    get:
+      operationId: reconcileR7Draft
+      summary: Reconcile a staff client's prior draft operation
+      description: Same authorized principal and permitted learner relationship required.
+      parameters:
+        - name: operationId
+          in: path
+          required: true
+          schema: {type: string, minLength: 8, maxLength: 128}
+      responses:
+        '200':
+          description: Prior draft result visible to the authorized principal
+          content:
+            application/json:
+              schema: {$ref: '#/components/schemas/DraftResult'}
+        '401': {$ref: '#/components/responses/Unauthenticated'}
+        '404': {$ref: '#/components/responses/NotVisible'}
+        '429': {$ref: '#/components/responses/RateLimited'}
+        '503': {$ref: '#/components/responses/Unavailable'}
+components:
+  securitySchemes:
+    BearerAuth: {type: http, scheme: bearer}
+  schemas:
+    ReceiptView:
+      type: object
+      additionalProperties: false
+      required: [learnerId, requirement, receiptStatus, receiptEventId, policyVersion, observedAt]
+      properties:
+        learnerId: {type: string}
+        requirement: {type: string, const: R7}
+        receiptStatus: {type: string, enum: [RECEIVED_FOR_REVIEW]}
+        receiptEventId: {type: string}
+        policyVersion: {type: string}
+        observedAt: {type: string, format: date-time}
+    DraftRequest:
+      type: object
+      additionalProperties: false
+      required: [operationId, learnerId, receiptEventId, policyVersion, draftText]
+      properties:
+        operationId: {type: string, minLength: 8, maxLength: 128}
+        learnerId: {type: string, pattern: '^lrn_[A-Za-z0-9]+$'}
+        receiptEventId: {type: string}
+        policyVersion: {type: string}
+        draftText: {type: string, minLength: 1, maxLength: 2000}
+    DraftResult:
+      type: object
+      additionalProperties: false
+      required: [draftId, reviewState, operationId]
+      properties:
+        draftId: {type: string}
+        reviewState: {type: string, enum: [AWAITING_STAFF_REVIEW]}
+        operationId: {type: string}
+    Problem:
+      type: object
+      required: [type, title, status, code]
+      properties:
+        type: {type: string, format: uri-reference}
+        title: {type: string}
+        status: {type: integer}
+        detail: {type: string}
+        instance: {type: string, format: uri-reference}
+        code: {type: string}
+  responses:
+    InvalidRequest:
+      description: Invalid input or unsupported source version
+      content:
+        application/problem+json:
+          schema: {$ref: '#/components/schemas/Problem'}
+          example: {type: 'https://api.harbor.example/problems/invalid-request', title: Invalid request, status: 400, code: INVALID_REQUEST}
+    Unauthenticated:
+      description: Authentication is required
+      headers:
+        WWW-Authenticate:
+          schema: {type: string, example: Bearer}
+      content:
+        application/problem+json:
+          schema: {$ref: '#/components/schemas/Problem'}
+          example: {type: 'https://api.harbor.example/problems/unauthenticated', title: Authentication required, status: 401, code: UNAUTHENTICATED}
+    Forbidden:
+      description: Authenticated principal lacks permission for this operation
+      content:
+        application/problem+json:
+          schema: {$ref: '#/components/schemas/Problem'}
+    NotVisible:
+      description: Object absent or not visible to this principal
+      content:
+        application/problem+json:
+          schema: {$ref: '#/components/schemas/Problem'}
+          example: {type: 'https://api.harbor.example/problems/not-found', title: Not found, status: 404, code: NOT_VISIBLE}
+    Conflict:
+      description: Same idempotency key with a different request fingerprint
+      content:
+        application/problem+json:
+          schema: {$ref: '#/components/schemas/Problem'}
+          example: {type: 'https://api.harbor.example/problems/operation-conflict', title: Operation conflict, status: 409, code: OPERATION_CONFLICT}
+    RateLimited:
+      description: Request rate limit reached
+      headers:
+        Retry-After:
+          schema: {type: string, example: '30'}
+      content:
+        application/problem+json:
+          schema: {$ref: '#/components/schemas/Problem'}
+    Unavailable:
+      description: Service temporarily unavailable; write outcome may be unknown
+      headers:
+        Retry-After:
+          schema: {type: string, example: '30'}
+      content:
+        application/problem+json:
+          schema: {$ref: '#/components/schemas/Problem'}

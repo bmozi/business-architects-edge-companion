@@ -1,0 +1,7 @@
+source_system,source_field,source_meaning,target_field,target_meaning,rule,authority,negative_case
+Fictional Document Service,sourceEventId,Unique receipt event identity,receiptEventId,Trace same receipt,Copy stable ID,Document Service,Duplicate ID is not a second receipt
+Fictional Document Service,learnerId,Source learner reference,learnerId,Authorized learner identity,Resolve through approved crosswalk and verify object access,Security and identity owner,Do not join on name or email alone
+Fictional Document Service,kind=DOCUMENT_RECEIVED,File recorded for review,receiptStatus=RECEIVED_FOR_REVIEW,Receipt recorded only,Map only approved source schema and meaning version,Policy and Engineering,Do not map to satisfaction
+Fictional Document Service,receivedAt,Receipt event time,receiptTime,Receipt event time,Preserve UTC and original event-time meaning,Document Service and Engineering,Do not call review completion time
+No source determination,no R7 Policy determination,No satisfaction fact,requirementComplete,Policy-owned satisfaction decision,PROHIBITED mapping from receipt event,Policy,Do not infer true or false from receipt
+Fictional Document Service,unknown kind/version,Unknown meaning,no current status update,No approved translation,Hold and investigate,Engineering and Policy,Do not default to complete

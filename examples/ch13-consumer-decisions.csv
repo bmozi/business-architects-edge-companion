@@ -1,0 +1,5 @@
+arrival,source_event_id,learner_sequence,prior_applied_sequence,classification,projection_decision,owner
+1,evt-rev-109,8,6,gap from 6 to 8,hold and reconcile missing 7 before apply,Portal consumer and source owner
+2,evt-rev-108,7,6,missing predecessor now received,apply 7 then held 8 atomically in source sequence,Portal consumer
+3,evt-rev-109,8,8,duplicate same source and id,acknowledge without new view effect,Portal consumer
+4,evt-rev-110,10,8,gap sequence 9 missing,hold 10 and reconcile authoritative source,Portal consumer and source owner

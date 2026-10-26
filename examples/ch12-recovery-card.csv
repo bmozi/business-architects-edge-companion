@@ -1,0 +1,6 @@
+receiver_fact,user_or_business_effect,decision,owner,stop_condition
+Draft D7 confirmed awaiting review,Internal draft only,Return original result and review once,Engineering and authorized staff,Do not send or infer R7 satisfaction
+Draft write UNKNOWN,No confirmed external effect,Hold new-key POST and reconcile original operation ID,Engineering and operations,Stop if lookup or key scope unavailable
+Source receipt R8 portal view R7,Potential stale learner status,Verify source replay permitted view update and show stale/unknown,Document source and portal operations,Stop wrong complete wording
+Wrong satisfied message already shown,Possible learner reliance on false guidance,Stop exposure preserve scope approve correction and receiving,Policy Support release and operations,Code rollback does not undo message
+Cross-learner read suspected,Protected data exposure possible,Stop route preserve audit and invoke incident process,Security Engineering and operations,No expanded AI access for remediation

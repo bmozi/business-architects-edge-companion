@@ -1,0 +1,6 @@
+stage,observed_fact,required_decision,owner,stop_or_next
+Detected,Portal applied 8 and holds E10 while E9 absent,Keep receipt view stale/unknown and investigate source,Portal operations,No satisfaction inference
+Source check,Source confirms E9 committed under doc-receipt/2 with pending outbox row,Repair relay using original source and id,Document source owner,Hold if source cannot prove fact
+Relay repaired,Original E9 event republished to restricted view-rebuild route,Apply 9 then held 10 without external sends,Engineering and operations,Stop if schema or identity mismatches
+Consumer applied,Processed identity and projected seq10 durable,Acknowledge only after commit and reconcile source latest,Portal consumer owner,Duplicate keeps original effect
+Return decision,Source/view identity sequence and meaning version agree,Restore approved receipt-only view under actual release authority,Policy Security Support release owners,Manual route if any acceptance absent
