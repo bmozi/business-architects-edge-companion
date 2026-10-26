@@ -1,6 +1,6 @@
-# From Senior AI Engineer to Architecture Leader — companion resources
+# The Business Architect’s Edge — companion resources
 
-Companion worksheets and worked technical fixtures for John Briggs's *From Senior AI Engineer to Architecture Leader: Connecting AI, Engineering, and Business Outcomes*.
+Companion worksheets and worked technical fixtures for John Briggs's *The Business Architect’s Edge: Connecting AI, Engineering, and Business Outcomes*.
 
 Harbor Learning and all records, people, costs, metrics, and systems in these files are fictional teaching examples. These files are not production configurations or evidence of results at any real institution.
 
