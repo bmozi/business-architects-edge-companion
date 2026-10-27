@@ -1,4 +1,4 @@
-# Chapter 28: worked answer — Choose investments under uncertainty
+# Chapter 28: Choose investments under uncertainty — worked answers
 
 The main Chapter 28 Harbor ledger and this paper exercise are **different invented cases**. Neither supplies a live rate, vendor quote, WGU cost, saved payroll, benefit forecast, or measured learner outcome. Require learners to show formulas and fit logic before making a recommendation.
 
@@ -10,7 +10,7 @@ The learner should reject a false equivalence before comparing prices, separate 
 
 The smaller repair's direct two-year cost is **$6,000 + 2 × $2,000 = $10,000**. The staff-reviewed draft aid adds **$12,000 + 2 × $3,000 = $18,000 incremental direct cost**. If combined with the smaller repair, the stated direct cost is $28,000. Other real costs remain unknown; the exercise does not authorize a budget.
 
-An adopted draft takes one minute of human review instead of the assumed four-minute baseline handling. Net potential capacity is **three minutes per adopted question**. We subtract review time once; we do not also record it as a separate dollar cost in this simplified calculation.
+An adopted draft takes one minute of human review instead of the assumed four-minute handling on the smaller-repair path without the aid. Net potential capacity is **three minutes per adopted question**. We subtract review time once; we do not also record it as a separate dollar cost in this simplified calculation.
 
 | Adoption | Adopted of 6,000 | Net potential capacity | Capacity-equivalent at invented $40/hour |
 |---:|---:|---:|---:|
@@ -25,7 +25,7 @@ The aid could be worth a bounded test for a nonmonetized benefit such as higher 
 
 ## Check the main Harbor worked model
 
-In the reader's separate two-year illustration, minimum repair is `$10,000 + 2 × $4,000 = $18,000`; the noncompliant demonstrated purchase is `$8,000 + 2 × $14,000 = $36,000`; the conditional AI add-on is `$20,000 + 2 × $10,000 = $40,000 incremental`, or $58,000 with the minimum repair before exclusions. With 20,000 eligible opportunities, five baseline minutes, $50/hour and one-minute review, potential capacity-equivalent values are about $26,667 at 40% adoption, $40,000 at 60%, and $46,667 at 70%. With two-minute review, they are $20,000, $30,000 and $35,000 respectively. The one-minute-review switching adoption is 60%. At 70% adoption, review duration at the narrow $40,000 switch is `5 − (40,000 × 60)/(14,000 × 50) ≈ 1.5714 minutes`.
+In the reader's separate two-year illustration, minimum repair is `$10,000 + 2 × $4,000 = $18,000`; the noncompliant demonstrated purchase is `$8,000 + 2 × $14,000 = $36,000`; the conditional AI add-on is `$20,000 + 2 × $10,000 = $40,000 incremental`, or $58,000 with the minimum repair before exclusions. With 20,000 eligible opportunities, five comparator minutes on the minimum-repair path without AI, $50/hour and one-minute review, potential capacity-equivalent values are about $26,667 at 40% adoption, $40,000 at 60%, and $46,667 at 70%. With two-minute review, they are $20,000, $30,000 and $35,000 respectively. The one-minute-review switching adoption is 60%. At 70% adoption, review duration at the narrow $40,000 switch is `5 − (40,000 × 60)/(14,000 × 50) ≈ 1.5714 minutes`.
 
 These are not ROI estimates. Dollar-equivalent capacity is a planning comparison only; the learner should not subtract it from payroll or assert increased starts. The figure data and automated arithmetic check reproduce each cell. An option may be chosen for a justified unmonetized benefit or rejected for policy risk despite a positive capacity cell; the calculation alone does not authorize a recommendation.
 

@@ -18,7 +18,7 @@ Possible measures: technical health = percentage of requests completed within an
 
 ## Chapter's separate illustrative numbers
 
-The chapter's other invented Harbor continuity scenario reuses earlier ch24 values: `60 − 20 = 40` backlog/day; `40 × 2 = 80` after two days; restored total capacity 75 with 60 new arrivals gives `75 − 60 = 15` net backlog completions/day; `ceil(80/15) = 6` days, conditional on all capacity and routing assumptions. It does not mix with the exercise's 40/15/50 packet. The separate latency illustration is `980/1000 = 98%` under the proposed three-second target; it says nothing about semantic correctness. One wrong answer in 20 conveniently selected reviews is `1/20 = 5%` of that sample, not a valid population error estimate.
+The chapter's other invented Harbor continuity scenario reuses earlier Chapter 7 values: `60 − 20 = 40` backlog/day; `40 × 2 = 80` after two days; restored total capacity 75 with 60 new arrivals gives `75 − 60 = 15` net backlog completions/day; `ceil(80/15) = 6` days, conditional on all capacity and routing assumptions. It does not mix with the exercise's 40/15/50 packet. The separate latency illustration is `980/1000 = 98%` under the proposed three-second target; it says nothing about semantic correctness. One wrong answer in 20 conveniently selected reviews is `1/20 = 5%` of that sample, not a valid population error estimate.
 
 ## Transfer rubric (12 points)
 

@@ -18,12 +18,12 @@
     },
     {
       "path": "answers/chapter-04.md",
-      "sha256": "0ca022669007ce20edb2e331461cea1fd60314079e72d62b84ac61695c16ff10",
+      "sha256": "baaa5e33567895130fb2caa68846b38bd2a538314a584d7b0520694865862e28",
       "origin": "Book Chapter 4 answer key"
     },
     {
       "path": "answers/chapter-05.md",
-      "sha256": "273162407ff46f0e2902709fe3f4803ea107b5adb0904ef73a4fcce771a38e3d",
+      "sha256": "67b3fc6dab4045dd9d0f1e1d1931dfe1e0de8ea71c13a92e8ff1a3c442d37b3b",
       "origin": "Book Chapter 5 answer key"
     },
     {
@@ -58,32 +58,32 @@
     },
     {
       "path": "answers/chapter-12.md",
-      "sha256": "711cd5b712b739ecaecb6d78056892b9febcb597d535fb50dc2b9e2375e57647",
+      "sha256": "b63633cfed8dba9839cc3e4228c0e17990e68bc3e5fe9bc9adbde5682adfed2b",
       "origin": "Book Chapter 12 answer key"
     },
     {
       "path": "answers/chapter-13.md",
-      "sha256": "07e5fbfdd709373699cff2e565416f0202c3138d5a85289261296a4688f0f6b2",
+      "sha256": "1a51bed873666a372d5915cc1512d20e29792d7423e1a17f3e1a3de252750a63",
       "origin": "Book Chapter 13 answer key"
     },
     {
       "path": "answers/chapter-14.md",
-      "sha256": "edd1e26cf7f56752023519c03ab153846c1a24ff0e4409fd2bd746d762488f2e",
+      "sha256": "665e12938dce89756f768101c144f85407bbe91a095d3a97efc86254fe7daa33",
       "origin": "Book Chapter 14 answer key"
     },
     {
       "path": "answers/chapter-15.md",
-      "sha256": "e4be5b73f537cca7805203e013e87effef1fa810dd1f93a5a453d51e9c8c63ba",
+      "sha256": "ff5b999df44c812653411107f5cca43b0425c9be29e838f7ef4587a538dc376d",
       "origin": "Book Chapter 15 answer key"
     },
     {
       "path": "answers/chapter-16.md",
-      "sha256": "ab60a3ecfc8683ee6a911e3ebea3eb9d2856dd717a1888672e038aef94d697fb",
+      "sha256": "cb76fd8283b5486d397cc2960e20414659e30e694a7581836dfc3758f3275f4f",
       "origin": "Book Chapter 16 answer key"
     },
     {
       "path": "answers/chapter-17.md",
-      "sha256": "37c94bd14a16d668afcd5d430502749d5090b859c2e2c21f0d72a0443d93e905",
+      "sha256": "7fa250f74adc655004e1e926d9278475316d81ff1eb966433a4693411ad0ac57",
       "origin": "Book Chapter 17 answer key"
     },
     {
@@ -93,17 +93,17 @@
     },
     {
       "path": "answers/chapter-19.md",
-      "sha256": "22165bff5ff065bbb12708da8e58425dc8abc03fd99ea29ab4584194906ec0b0",
+      "sha256": "b90fc4b8784a8015935a5480b5c7f94097250982bc10f6b9189f3331d9eaba28",
       "origin": "Book Chapter 19 answer key"
     },
     {
       "path": "answers/chapter-20.md",
-      "sha256": "9b1f4faed0a6e73c513041588beeac2f60dec3d402af99d78e12d5d84737eb27",
+      "sha256": "7b2114581014dbb386a766fda23456afb79caf0e851095126451fc613972f985",
       "origin": "Book Chapter 20 answer key"
     },
     {
       "path": "answers/chapter-21.md",
-      "sha256": "6b0a05e346ecd8fa87fa2fe9aeb30b8f49436df93b370b2108a593d8fbd372ea",
+      "sha256": "fa7ba3fc52a83e4329e165a2c51cd95ac634e74fe068846155d484e36ae68b0d",
       "origin": "Book Chapter 21 answer key"
     },
     {
@@ -118,7 +118,7 @@
     },
     {
       "path": "answers/chapter-24.md",
-      "sha256": "28a93c471428ab5b7421c286b97e5eb72fbf90d0895fa6828182970d984f1401",
+      "sha256": "9886710fead86cd914fc5b3f73d03ccd77557cd9da7483b9421febfd4eb9d5f6",
       "origin": "Book Chapter 24 answer key"
     },
     {
@@ -138,7 +138,7 @@
     },
     {
       "path": "answers/chapter-28.md",
-      "sha256": "b89efcaf65679df0cc43b17f6424539c882063710edb56d67f4eee3ac9976580",
+      "sha256": "a9513edfbeb83a2696b1715d7c99a378403056b45f98488f13f52e5fdd59a801",
       "origin": "Book Chapter 28 answer key"
     },
     {
@@ -153,12 +153,12 @@
     },
     {
       "path": "answers/chapter-31.md",
-      "sha256": "8789e3086ef18a28984e446363151c5f9c0a09e4d451502b4c12893525de6ce2",
+      "sha256": "681689bc64db04f1a31146c0cfa1b653caf840942d94e6dcebfce3ff30861be5",
       "origin": "Book Chapter 31 answer key"
     },
     {
       "path": "answers/chapter-32.md",
-      "sha256": "c0b5212e2336e64b445da7e8adfdcdbd6c5e5a93ca57a819cb2e20797e9eb75a",
+      "sha256": "2e14fabad327c91aaceb91dd5b96d009f88cf7c5b8cacd0128149c622bb5cb76",
       "origin": "Book Chapter 32 answer key"
     },
     {
@@ -273,12 +273,12 @@
     },
     {
       "path": "templates/recommendation/worked-example.md",
-      "sha256": "1d07bb862dead1da7322c49fff3b58c200b950d8642ffdb01fa819d4620cdbf0",
+      "sha256": "908c433f19f0ef0267cc6a9bae83c70e8d496a4fc39126c1da5316f2750d5b19",
       "origin": "Book Chapter 31 worked table"
     },
     {
       "path": "templates/recommendation/worksheet.csv",
-      "sha256": "b1a83800a92659c54b1a74c5cc910368d14e236d64f23a638d0ba0fb5cad1f86",
+      "sha256": "ecfbdf75e98922506e76f258d246d602d2bea22f5674e86d02f5a91f4f9fee2a",
       "origin": "Book Chapter 31 template fields"
     },
     {

@@ -13,7 +13,7 @@ Shared first-year cost exceeds local by $2,400. Purchased is $15,000 below share
 ## Boundary critique
 
 1. Cheapest means suitable: business/procurement/technical owners must verify required controls, behavior, service, terms, uncertainty and exit rather than assume equivalence. In the added exercise fact, one green status cannot yet represent receipt and approval separately. Policy owner confirms the distinction; procurement/engineering obtain a supported product demonstration for unresolved and approved cases. Until then the purchased candidate cannot be ranked as a viable cheaper option. An adapter is a new proposed design, with Harbor owning its semantic mapping, tests, monitoring, vendor-change response and incident handling; its cost is not included in $75,600. A buyer may show an alternative supported configuration and re-enter the fit comparison. No real vendor failure is implied.
-2. One broad credential: technical/security and domain/data owners must define and enforce request/task/context authorization. A shared technical service need not imply one unrestricted data identity; model routing credentials and data-source permissions also differ.
+2. One unrestricted data-source credential: technical/security and domain/data owners must define and enforce request/task/context authorization. A shared technical service need not imply one unrestricted data identity; model routing credentials and data-source permissions also differ.
 3. Question-only cache: technical owner must evaluate whether context, data scope, evidence/configuration validity and permission changes affect reuse. Same wording is not proof that the same answer may be disclosed.
 4. Platform approves every answer: domain/policy owner retains meaning and business decision authority; shared infrastructure cannot accept all task consequences. Evaluation/operations capacity and actual responsibility agreement required.
 
@@ -25,7 +25,14 @@ If an available replacement is unapproved for the data, do not route there autom
 
 ## Self-study paper rubric: 16
 
-Three options computed with units/horizon3; two differences2; synthetic/incomplete/capacity versus cash limits2; four boundary issues with suitable ownership/evidence6, including fit/adapter follow-through within the purchase critique; bounded next step1; unapproved fallback response2. Total16. Do not award credit for a confidently recommended purchase unsupported by required capability checks.
+- 3: computes three options with units and planning horizon.
+- 2: computes and labels the two differences.
+- 2: explains synthetic inputs, incomplete cost scope, and capacity versus cash.
+- 6: identifies four distinct boundary issues with owners and evidence, including fit and adapter ownership within the purchase critique.
+- 1: proposes a bounded next step.
+- 2: handles the unapproved fallback without bypassing data restrictions.
+
+Total: 16. Do not award credit for a confidently recommended purchase unsupported by required capability checks.
 
 ## Transfer: Harbor example
 
@@ -33,6 +40,6 @@ Consumer/outcome: onboarding staff need faithful explanations of one approved re
 
 Alternatives: reviewed template/existing tools, thin shared model/evidence/usage path, managed product with verified integration/isolation. Access test: same question under distinct permitted contexts and revoked access. Change test: replacement model must not turn unresolved into approval. Outage test: provider unavailable invokes approved non-generative/manual route. Retirement: capability no longer supports outcome or cannot meet necessary boundaries; migrate consumers/revoke access according to agreed retention and contracts.
 
-Proposed transfer rubric: useful card2; genuine alternatives/uncertainty2; three meaningful tests2; accountable operation/guardrails2; fallback/exit and no invented agreements2=10.
+Proposed transfer rubric: useful service card, 2; genuine alternatives and uncertainty, 2; three meaningful tests, 2; accountable operation and guardrails, 2; fallback, exit and no invented agreements, 2. Total: 10.
 
 Common misconceptions: authentication proves isolation; centralization creates domain expertise; budget alert caps spending; all model endpoints are interchangeable; purging cache reverses disclosure; using AI to draft a contract creates agreement. Ask which implemented control or accountable commitment supports each claim.

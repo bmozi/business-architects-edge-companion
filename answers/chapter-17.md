@@ -4,13 +4,13 @@ All Harbor packets are invented. No WGU or Harbor training, pilot, policy approv
 
 ## Teach-back
 
-Adoption is competent, sustained use of a helpful way of working; attendance is only evidence that someone was present. Readiness requires policy, skill, access, capacity and owner acceptance for the *next* stage. Transition requires a receiving team that can demonstrate and accept operation, including the ability to stop and correct failure. A sponsor can set direction/resources within actual authority; other domain owners keep their policy, support, security and release decisions. Change is a feedback process, not a one-day launch.
+Adoption is sustained use of a way of working; competence and benefit require separate evidence. Attendance is only evidence that someone was present. Readiness requires policy, skill, access, capacity and owner acceptance for the *next* stage. Transition requires a receiving team that can demonstrate and accept operation, including the ability to stop and correct failure. A sponsor can set direction/resources within actual authority; other domain owners keep their policy, support, security and release decisions. Change is a feedback process, not a one-day launch.
 
 ## Worked Harbor chapter example
 
 The invented twelve staff all attend orientation, so attendance is `12/12 = 100%`. Seven demonstrate the current-R7, wrong-draft rejection and human-route task, so demonstrated share is `7/12 × 100 ≈ 58.3%`. The five remaining need practice, access, better task design or other support; the count is not an individual rating or real workforce proficiency estimate. A safe stage remains staff-only synthetic rehearsal until named owners accept the conditions. No learner-facing exposure follows from this number.
 
-Chapter 13's illustrative 16 mentoring/learning hours are *already excluded* from its 56 new-work hours. A candidate allocation `6 scenario design + 4 runbook review + 6 pairing/rehearsal = 16` requires the manager's approval and displaces other learning. Separately, three fictional Support staff × two hours = six Support hours; Engineering's learning reserve cannot fund or promise that work. Support service hours/capacity must be accepted by its owner. The old ch17 12/day versus 8/day queue is a synthetic teaching scenario, not a measured need.
+Chapter 13's illustrative 16 mentoring/learning hours are *already excluded* from its 56 new-work hours. A candidate allocation `6 scenario design + 4 runbook review + 6 pairing/rehearsal = 16` requires the manager's approval and displaces other learning. Separately, three fictional Support staff × two hours = six Support hours; Engineering's learning reserve cannot fund or promise that work. Support service hours/capacity must be accepted by its owner. The old Chapter 14 12/day versus 8/day queue is a synthetic teaching scenario, not a measured need.
 
 ## Separate paper packet answer
 

@@ -4,7 +4,7 @@ All packets are fictional. No Harbor/WGU strategy, architecture decision, access
 
 ## Teach-back
 
-Business–technology alignment is a revisable trace: desired human/business outcome → capability → requirements and quality attributes → technical and operating choice → evidence and correction. A faster deployment, passing build or lower cost per generated draft can support a service, but it does not independently prove that a learner understands the next step. Leading, lagging, guardrail and delivery-health measures answer different questions. Every measure needs a definition, denominator, source, time window and owner.
+Business–technology alignment is a revisable trace: desired human/business outcome → capability → requirements and quality attributes → technical and operating choice → evidence and correction. A faster deployment, passing build or lower cost per generated draft can support a service, but it does not independently prove that a learner understands the next step. Leading, lagging, guardrail and delivery-health measures answer different questions. Every measure needs a definition, unit, source, time window and owner; proportions need a numerator and denominator, while durations need start and end events.
 
 ## Worked chapter case
 

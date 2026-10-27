@@ -8,7 +8,7 @@ Capacity is accepted work a team can safely finish after existing commitments. N
 
 ## Worked Harbor chapter example
 
-The chapter's illustrative team has `4 × 40 = 160` nominal hours. Mutually exclusive buckets total `24 + 28 + 24 + 16 + 12 = 104`. New-change allowance is `160 − 104 = 56` hours. An 80-hour request creates `80 − 56 = 24` hours of unmet demand. The proposed 48-hour R7 wording/accessible-handoff increment fits the invented allowance, leaving `56 − 48 = 8` hours of illustrated contingency. This is not a real forecast or a reason to consume the buffer automatically. A policy answer, support acceptance, effective R7 gate or unplanned incident may change the commitment. Do not close the gap by deleting negative tests, training or on-call recovery.
+The chapter's illustrative team has `4 × 40 = 160` nominal hours. Mutually exclusive buckets total `24 + 28 + 24 + 16 + 12 = 104`. New-change allowance is `160 − 104 = 56` hours. An 80-hour request creates `80 − 56 = 24` hours of unmet demand. The proposed 48 implementation hours for the R7 wording/accessible-handoff increment fit the invented new-change allowance, provided its coordination, verification and mentoring also fit their separately reserved buckets, leaving `56 − 48 = 8` hours of illustrated contingency. This is not a real forecast or a reason to consume the buffer automatically. A policy answer, support acceptance, effective R7 gate or unplanned incident may change the commitment. Do not close the gap by deleting negative tests, training or on-call recovery.
 
 ## Worked separate paper packet
 

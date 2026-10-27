@@ -1,4 +1,4 @@
-# Chapter 27: worked answer — Connect strategy to execution
+# Chapter 27: Connect strategy to execution — worked answers
 
 This guide accompanies Chapter 27's paper and transfer tasks. The 12-message and six-case packet is invented, separate from all other Harbor examples. Do not present it as a baseline, before/after comparison, sampling frame, deployment result or outcome study.
 

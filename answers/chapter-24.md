@@ -10,7 +10,7 @@ An event records an occurrence in past tense; a command asks a particular receiv
 
 Start at applied sequence 6. Under the deliberately **gap-holding** consumer contract in the chapter/data file:
 
-1. `E8(seq 8, rev_109)` arrives while 7 is missing. Validate schema/identity, hold E8, report missing 7, and reconcile with source; keep projected seq 6 and show a truthful stale/unknown state. If a different agreed contract allows jumping to latest absolute state, applying E8 can be defensible, but it must still report the gap and prove no required intermediate effect was skipped.
+1. `E8(seq 8, rev_109)` arrives while 7 is missing. Validate schema/identity, durably hold E8 as pending (not applied), report missing 7, and reconcile with source; keep projected seq 6 and show a truthful stale/unknown state. If a different agreed contract allows jumping to latest absolute state, applying E8 can be defensible, but it must still report the gap and prove no required intermediate effect was skipped.
 2. `E7(seq 7, rev_108)` is a **distinct** event, not a duplicate of E8. Apply 7 and then held 8 in source order under the local atomic view/processed-ID rule; latest safe projected receipt is `rev_109`, seq 8. Never map either to R7 satisfaction.
 3. Second `E8` has the same `(source,id)` as first E8. Acknowledge as a duplicate after verifying the stored result; no new view update, message or case. Projected receipt remains `rev_109`, seq 8.
 4. `E10(seq 10, rev_110)` arrives with 9 missing. Hold 10, report gap, query authoritative source or repair the missing fact, and keep seq 8 view explicitly stale/unknown until the contract's recovery condition is met. Do not use arrival time as sequence authority.

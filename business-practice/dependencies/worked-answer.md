@@ -1,4 +1,4 @@
-# Chapter 29: worked answer — Expose cross-functional dependencies
+# Chapter 29: Expose cross-functional dependencies — worked answers
 
 The reader's paper packet, Harbor register and API are fictional. No team, vendor or learner has actually agreed to, tested or used the proposed route. The aim is to make an exchange decision-ready and to preserve the difference between a named, agreed and working dependency.
 

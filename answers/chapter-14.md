@@ -8,11 +8,11 @@ A sent handoff proves an upstream event occurred. An accepted handoff means a re
 
 ## Worked chapter arithmetic and decision
 
-At invented Harbor rates, twelve unresolved contacts arrive per day and Support can complete eight. Net unfinished demand is `12 − 8 = 4/day`. With zero initial backlog and constant rates over five days, `4 × 5 = 20` remain. This says nothing about observed demand or individual performance. The chapter's proposed narrow wording/handoff correction follows ch16's conditional 48-hour engineering increment; support, policy and release acceptance are separate. A broader routing feature or autonomous case action is deferred. A simpler static text/form path may beat the assisted path if it gives the learner the right next step with lower full-service cost.
+At invented Harbor rates, twelve unresolved contacts arrive per day and Support can complete eight. Net unfinished demand is `12 − 8 = 4/day`. With zero initial backlog and constant rates over five days, `4 × 5 = 20` remain. This says nothing about observed demand or individual performance. The chapter's proposed narrow wording/handoff correction follows Chapter 13's conditional 48 implementation hours plus separately reserved supporting work; support, policy and release acceptance are separate. A broader routing feature or autonomous case action is deferred. A simpler static text/form path may beat the assisted path if it gives the learner the right next step with lower full-service cost.
 
 ## Separate paper packet
 
-Thirty unresolved handoffs/day minus twenty-four daily completions = six unfinished/day. After three days from zero backlog, `6 × 3 = 18` unfinished. Do not mix these numbers with the chapter's 12/8/5 example or ch16's weekly engineering capacity. Finance's digital-message count does not prove resolution.
+Thirty unresolved handoffs/day minus twenty-four daily completions = six unfinished/day. After three days from zero backlog, `6 × 3 = 18` unfinished. Do not mix these numbers with the chapter's 12/8/5 example or Chapter 13's weekly engineering capacity. Finance's digital-message count does not prove resolution.
 
 One acceptable three-row ledger:
 

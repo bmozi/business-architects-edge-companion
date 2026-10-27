@@ -4,7 +4,7 @@ This is a self-study kit for the book's reader-facing Chapter 28. All Harbor fac
 
 ## Work the paper case first
 
-Use the separate paper case: smaller repair $6,000 setup plus $2,000/year for two years; optional draft aid $12,000 setup plus $3,000/year incremental. Across two years there are 6,000 eligible questions, four baseline minutes, one review minute, adoption of 50% or 75%, and an illustrative $40/hour capacity value. A $10,000 vendor demo equates receipt with approval and fails R7. Calculate direct costs and potential hours; apply fit before cost ranking. No number is a quote or observed benefit.
+Use the separate paper case: smaller repair $6,000 setup plus $2,000/year for two years; optional draft aid $12,000 setup plus $3,000/year incremental. Across two years there are 6,000 eligible questions, four handling minutes on the smaller-repair path without AI, one review minute, adoption of 50% or 75%, and an illustrative $40/hour capacity value. A $10,000 vendor demo equates receipt with approval and fails R7. Calculate direct costs and potential hours; apply fit before cost ranking. No number is a quote or observed benefit.
 
 1. Read the chapter, then spend about 30 minutes on your own answer.
 2. Copy [worksheet.csv](worksheet.csv), fill the fields and retain your assumptions. Use a spreadsheet or plain text; blank template cells are for your work.

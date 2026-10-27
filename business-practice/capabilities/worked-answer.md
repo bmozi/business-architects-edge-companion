@@ -1,4 +1,4 @@
-# Chapter 26: worked answer — Map business capabilities
+# Chapter 26: Map business capabilities — worked answers
 
 This guide accompanies the reader-facing paper exercise and transfer task in Chapter 26. Harbor Learning, the R7 rule, the dialogue, and the question packet are fictional. The packet supports arithmetic and a bounded decision; it is not a sample from a live learner population.
 

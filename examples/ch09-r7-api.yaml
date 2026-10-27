@@ -47,7 +47,9 @@ paths:
       description: >-
         Hypothetical future staff-client operation only. Not available to the
         existing AI assistant. Idempotency-Key is scoped to principal and route.
-        Same key and identical body replays the stored result within a published
+        Recheck current learner-specific permission before replay or lookup; retain
+        deduplication history when access is revoked. Same key and identical body
+        replays the stored result within a published
         retention window; changed body conflicts. After expiry, reconcile by
         operationId through an authorized lookup before retrying with a new key.
         Actual retention value, lookup and atomicity need implementation evidence.
@@ -72,7 +74,7 @@ paths:
           content:
             application/json:
               schema: {$ref: '#/components/schemas/DraftResult'}
-              example: {draftId: drf_512, reviewState: AWAITING_STAFF_REVIEW, operationId: op-7c91}
+              example: {draftId: drf_512, reviewState: AWAITING_STAFF_REVIEW, operationId: op-7c91a}
         '400': {$ref: '#/components/responses/InvalidRequest'}
         '401': {$ref: '#/components/responses/Unauthenticated'}
         '403': {$ref: '#/components/responses/Forbidden'}
