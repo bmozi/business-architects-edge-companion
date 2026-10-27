@@ -1,0 +1,27 @@
+{
+  "status": "synthetic teaching assumptions, not measured Harbor data",
+  "horizon_years": 2,
+  "minimum_repair": {"setup_usd": 10000, "annual_upkeep_usd": 4000},
+  "hypothetical_purchase": {"integration_usd": 8000, "annual_license_usd": 14000, "r7_fit": false},
+  "conditional_ai_add_on": {"setup_usd": 20000, "annual_operation_usd": 10000},
+  "eligible_questions": 20000,
+  "baseline_minutes_per_question": 5,
+  "capacity_value_usd_per_hour": 50,
+  "adoption_rates": [0.4, 0.6, 0.7],
+  "review_minutes": [1, 2],
+  "chart_capacity_equivalent_usd": {
+    "review_1": [26666.666666666668, 40000, 46666.666666666664],
+    "review_2": [20000, 30000, 35000]
+  },
+  "paper_exercise": {
+    "smaller_setup_usd": 6000,
+    "smaller_annual_usd": 2000,
+    "aid_setup_usd": 12000,
+    "aid_annual_usd": 3000,
+    "eligible_questions": 6000,
+    "baseline_minutes": 4,
+    "review_minutes": 1,
+    "adoption_rates": [0.5, 0.75],
+    "capacity_value_usd_per_hour": 40
+  }
+}
