@@ -30,5 +30,21 @@ assert [h*p['capacity_value_usd_per_hour'] for h in hours]==[6000,9000]
 for path in (root/'examples').glob('*.csv'):
  with path.open(newline='') as f:rows=list(csv.reader(f))
  assert rows and all(len(row)==len(rows[0]) for row in rows),path.name
-print('PASS: four self-study kits, template CSV shape, synthetic costs/sensitivity and existing CSV fixtures.')
+# Reader-numbered answer/template integrity and reproducible source sync.
+import hashlib,re
+manifest=json.loads((root/'reader-resources-manifest.json').read_text())
+for record in manifest['files']:
+ path=root/record['path'];assert path.is_file(),record['path']
+ assert hashlib.sha256(path.read_bytes()).hexdigest()==record['sha256'],record['path']
+for chapter in range(1,33):
+ path=root/f'answers/chapter-{chapter:02}.md';value=path.read_text()
+ assert value.startswith(f'# Chapter {chapter}:'),path.name
+ assert not re.search(r'\bC\d{3}\b|provenance/|editorial/',value),path.name
+for path in (root/'templates').glob('*/worksheet.csv'):
+ with path.open(newline='') as f:rows=list(csv.reader(f))
+ assert len(rows)>1 and all(len(row)==len(rows[0]) for row in rows),path
+for path in [root/'README.md',*root.glob('answers/*.md'),*root.glob('templates/**/*.md'),*root.glob('business-practice/**/*.md')]:
+ for target in re.findall(r'\]\(([^)]+)\)',path.read_text()):
+  if not target.startswith(('http','#')):assert (path.parent/target.split('#')[0]).exists(),(path,target)
+print('PASS: four business kits, 32 numbered answer keys, nine templates, SHA-256 identities, local links and synthetic arithmetic.')
 print('Scope: offline file/arithmetic checks; no live system, business result or learner validation.')

@@ -1,0 +1,310 @@
+{
+  "scope": "Owned reader answers and decision templates; SHA-256 integrity, not human approval",
+  "files": [
+    {
+      "path": "answers/chapter-01.md",
+      "sha256": "0580d7020cac136f3400c1a98a913f0d169a20031ae4bf0d1bca0d58bb75c391",
+      "origin": "Book Chapter 1 answer key"
+    },
+    {
+      "path": "answers/chapter-02.md",
+      "sha256": "311384554b2b98aff8fae6197e0550cf0c61451a926aab394fd8db20f0a2726c",
+      "origin": "Book Chapter 2 answer key"
+    },
+    {
+      "path": "answers/chapter-03.md",
+      "sha256": "8c0ca85a62b1290258ef0c7b65a4dbfcf97287a9d1b76fedd2e4171f5f61c138",
+      "origin": "Book Chapter 3 answer key"
+    },
+    {
+      "path": "answers/chapter-04.md",
+      "sha256": "0ca022669007ce20edb2e331461cea1fd60314079e72d62b84ac61695c16ff10",
+      "origin": "Book Chapter 4 answer key"
+    },
+    {
+      "path": "answers/chapter-05.md",
+      "sha256": "273162407ff46f0e2902709fe3f4803ea107b5adb0904ef73a4fcce771a38e3d",
+      "origin": "Book Chapter 5 answer key"
+    },
+    {
+      "path": "answers/chapter-06.md",
+      "sha256": "1dcf6ab37b45834d50310eaf6e0c7d8761f0191ccc47429624cb15bd7694fb3c",
+      "origin": "Book Chapter 6 answer key"
+    },
+    {
+      "path": "answers/chapter-07.md",
+      "sha256": "a757a71ccbd7220135ebfd0041e4afe1244e9ee4079843594e998cd32ce34afe",
+      "origin": "Book Chapter 7 answer key"
+    },
+    {
+      "path": "answers/chapter-08.md",
+      "sha256": "f7d8e8c809d3c32a0a4fd08a45636e4bc48c2a1f0efa1dd2d5578b51110df4b7",
+      "origin": "Book Chapter 8 answer key"
+    },
+    {
+      "path": "answers/chapter-09.md",
+      "sha256": "86f1d1de483a57c6cd62d643a1702f42a07770e0cd8d97787e445ae2418bcf20",
+      "origin": "Book Chapter 9 answer key"
+    },
+    {
+      "path": "answers/chapter-10.md",
+      "sha256": "8ad24a0957bb218279e6781df2aa4feb5d3ab6bd6ff9dce8f2ad376cbe1a5a54",
+      "origin": "Book Chapter 10 answer key"
+    },
+    {
+      "path": "answers/chapter-11.md",
+      "sha256": "a0d026bff7c97253c3db18009b2d0273e573795295d560ecec20856f71389041",
+      "origin": "Book Chapter 11 answer key"
+    },
+    {
+      "path": "answers/chapter-12.md",
+      "sha256": "711cd5b712b739ecaecb6d78056892b9febcb597d535fb50dc2b9e2375e57647",
+      "origin": "Book Chapter 12 answer key"
+    },
+    {
+      "path": "answers/chapter-13.md",
+      "sha256": "07e5fbfdd709373699cff2e565416f0202c3138d5a85289261296a4688f0f6b2",
+      "origin": "Book Chapter 13 answer key"
+    },
+    {
+      "path": "answers/chapter-14.md",
+      "sha256": "edd1e26cf7f56752023519c03ab153846c1a24ff0e4409fd2bd746d762488f2e",
+      "origin": "Book Chapter 14 answer key"
+    },
+    {
+      "path": "answers/chapter-15.md",
+      "sha256": "e4be5b73f537cca7805203e013e87effef1fa810dd1f93a5a453d51e9c8c63ba",
+      "origin": "Book Chapter 15 answer key"
+    },
+    {
+      "path": "answers/chapter-16.md",
+      "sha256": "ab60a3ecfc8683ee6a911e3ebea3eb9d2856dd717a1888672e038aef94d697fb",
+      "origin": "Book Chapter 16 answer key"
+    },
+    {
+      "path": "answers/chapter-17.md",
+      "sha256": "37c94bd14a16d668afcd5d430502749d5090b859c2e2c21f0d72a0443d93e905",
+      "origin": "Book Chapter 17 answer key"
+    },
+    {
+      "path": "answers/chapter-18.md",
+      "sha256": "8cf74c55b1a6a40ac1d6643098af700668be615950164e0feda03e9bd3f8b370",
+      "origin": "Book Chapter 18 answer key"
+    },
+    {
+      "path": "answers/chapter-19.md",
+      "sha256": "22165bff5ff065bbb12708da8e58425dc8abc03fd99ea29ab4584194906ec0b0",
+      "origin": "Book Chapter 19 answer key"
+    },
+    {
+      "path": "answers/chapter-20.md",
+      "sha256": "9b1f4faed0a6e73c513041588beeac2f60dec3d402af99d78e12d5d84737eb27",
+      "origin": "Book Chapter 20 answer key"
+    },
+    {
+      "path": "answers/chapter-21.md",
+      "sha256": "6b0a05e346ecd8fa87fa2fe9aeb30b8f49436df93b370b2108a593d8fbd372ea",
+      "origin": "Book Chapter 21 answer key"
+    },
+    {
+      "path": "answers/chapter-22.md",
+      "sha256": "596589f9d1af39cb7fb38d6d4cfeb2dd834227362e6df3bbf87ade323e54c9de",
+      "origin": "Book Chapter 22 answer key"
+    },
+    {
+      "path": "answers/chapter-23.md",
+      "sha256": "b4678247f8e93aed68a8400c8c2598aa7c8f648925e676779a97ac25935915fb",
+      "origin": "Book Chapter 23 answer key"
+    },
+    {
+      "path": "answers/chapter-24.md",
+      "sha256": "28a93c471428ab5b7421c286b97e5eb72fbf90d0895fa6828182970d984f1401",
+      "origin": "Book Chapter 24 answer key"
+    },
+    {
+      "path": "answers/chapter-25.md",
+      "sha256": "0ea722ec670cefe27d04b4a2ed527aa26c5408819d85a99d4e4560926daeb348",
+      "origin": "Book Chapter 25 answer key"
+    },
+    {
+      "path": "answers/chapter-26.md",
+      "sha256": "d70d22f95d8a8fdce97bf4f208d7e01ae5d7ca108ccc5929a357d84a3f43b2c4",
+      "origin": "Book Chapter 26 answer key"
+    },
+    {
+      "path": "answers/chapter-27.md",
+      "sha256": "e88e34ca2eebccfa545632c56c80d5e51619cb735156dfb88b5b05e8da735e10",
+      "origin": "Book Chapter 27 answer key"
+    },
+    {
+      "path": "answers/chapter-28.md",
+      "sha256": "b89efcaf65679df0cc43b17f6424539c882063710edb56d67f4eee3ac9976580",
+      "origin": "Book Chapter 28 answer key"
+    },
+    {
+      "path": "answers/chapter-29.md",
+      "sha256": "90bc24d9b1b5bfe6e715f7983f76f700c794a43f6c71b6451ed6bdb1874ad4b6",
+      "origin": "Book Chapter 29 answer key"
+    },
+    {
+      "path": "answers/chapter-30.md",
+      "sha256": "00b28b3bd9c57a8ad4e8e0eb678319cf940f9c23da442545ffd986e517740d82",
+      "origin": "Book Chapter 30 answer key"
+    },
+    {
+      "path": "answers/chapter-31.md",
+      "sha256": "8789e3086ef18a28984e446363151c5f9c0a09e4d451502b4c12893525de6ce2",
+      "origin": "Book Chapter 31 answer key"
+    },
+    {
+      "path": "answers/chapter-32.md",
+      "sha256": "c0b5212e2336e64b445da7e8adfdcdbd6c5e5a93ca57a819cb2e20797e9eb75a",
+      "origin": "Book Chapter 32 answer key"
+    },
+    {
+      "path": "answers/README.md",
+      "sha256": "3503c6e488256e5508fdf428331f5981c4e2d957a4a59dfd4cc62ffd9733e6ab",
+      "origin": "Reader chapter guide"
+    },
+    {
+      "path": "templates/outcome-charter/worked-example.md",
+      "sha256": "c7c39692b12df8ae950b3af0d95282675937f2241e3021810b464c4def054d60",
+      "origin": "Book Chapter 1 worked table"
+    },
+    {
+      "path": "templates/outcome-charter/worksheet.csv",
+      "sha256": "a50894b8bc371ec1a4e2e77c6dfb62a66baf6389dffd58a3e8a6824f68de774e",
+      "origin": "Book Chapter 1 template fields"
+    },
+    {
+      "path": "templates/outcome-charter/README.md",
+      "sha256": "36d1651604e421da9a52ab7774eaf41515cc407fc327a5d7d8c9e5eb21a9d0d5",
+      "origin": "Book Chapter 1 self-study directions"
+    },
+    {
+      "path": "templates/explanation-card/worked-example.md",
+      "sha256": "62c3c312f493429228b3fa1677906eca710f6ad64566514562f0562eb741bbfe",
+      "origin": "Book Chapter 2 worked table"
+    },
+    {
+      "path": "templates/explanation-card/worksheet.csv",
+      "sha256": "ca483b3db1db70f21be806d00778873638177ef207418a9b505e49cc31bf2e63",
+      "origin": "Book Chapter 2 template fields"
+    },
+    {
+      "path": "templates/explanation-card/README.md",
+      "sha256": "38cbb4d07ec36609708cea132f5eee0c584c5b716db27e76354f2161c99c16b7",
+      "origin": "Book Chapter 2 self-study directions"
+    },
+    {
+      "path": "templates/evaluation-case/worked-example.md",
+      "sha256": "11e1f4952e0e73326408b116ac4cc9f4f072d47a738ce863876317b79fbb543b",
+      "origin": "Book Chapter 4 worked table"
+    },
+    {
+      "path": "templates/evaluation-case/worksheet.csv",
+      "sha256": "5462251cfef63fb38044e1f12f7f32d719b6f4ade75f8f100631bf99c6177ed0",
+      "origin": "Book Chapter 4 template fields"
+    },
+    {
+      "path": "templates/evaluation-case/README.md",
+      "sha256": "3a8d2db71bf76cd37a5ee7f9d3a4d020f6adb3a7b2289d3c66191c7523307b62",
+      "origin": "Book Chapter 4 self-study directions"
+    },
+    {
+      "path": "templates/service-card/worked-example.md",
+      "sha256": "3e11f41f39c8665d79e9d67b0778435b3051f56ace65e5b1c4cf0010cf676502",
+      "origin": "Book Chapter 5 worked table"
+    },
+    {
+      "path": "templates/service-card/worksheet.csv",
+      "sha256": "601d458a9d6fd05760a41589cf059d0cd6ffa89c613d922ea9af84a4dabc89fa",
+      "origin": "Book Chapter 5 template fields"
+    },
+    {
+      "path": "templates/service-card/README.md",
+      "sha256": "1ec7d5428c3150df5a5b39763a7ba47d1b8a38edf147398a51fa617792c9fe47",
+      "origin": "Book Chapter 5 self-study directions"
+    },
+    {
+      "path": "templates/authority-card/worked-example.md",
+      "sha256": "0d92b46c69aac74ae618b3ebe73fe461b8ebfe17630cbe51b5944f53356cb389",
+      "origin": "Book Chapter 6 worked table"
+    },
+    {
+      "path": "templates/authority-card/worksheet.csv",
+      "sha256": "f42d98e049d4b23b2e9f433812a32a0ac4e1a6c8378c68d1dd9713c5837e5468",
+      "origin": "Book Chapter 6 template fields"
+    },
+    {
+      "path": "templates/authority-card/README.md",
+      "sha256": "67f4ed06e46864a1eb6d3aefcb4a38a0e7e6f192c97968bb69c57c86b5cda044",
+      "origin": "Book Chapter 6 self-study directions"
+    },
+    {
+      "path": "templates/architecture-decision/worked-example.md",
+      "sha256": "9a1f0162fae96f20f69e99ecdd69404956a599d733773d2290957757b7b21756",
+      "origin": "Book Chapter 18 worked table"
+    },
+    {
+      "path": "templates/architecture-decision/worksheet.csv",
+      "sha256": "572f026894fa4c1e623b09ece0db4bc7783fc86f3d18c88f819f8a230554e99a",
+      "origin": "Book Chapter 18 template fields"
+    },
+    {
+      "path": "templates/architecture-decision/README.md",
+      "sha256": "120daba363f0396c5ca594aeebec5e9f7fdd6e97bd24383ff84660d85390995b",
+      "origin": "Book Chapter 18 self-study directions"
+    },
+    {
+      "path": "templates/measurement-contract/worked-example.md",
+      "sha256": "7a3253f07c89660e62a392367935ebfdec52c22930572268b88a2fb500dca33e",
+      "origin": "Book Chapter 30 worked table"
+    },
+    {
+      "path": "templates/measurement-contract/worksheet.csv",
+      "sha256": "6df86a6271d78b1f62e27677566a845d4097858184a1eaf81d323a3e87775b71",
+      "origin": "Book Chapter 30 template fields"
+    },
+    {
+      "path": "templates/measurement-contract/README.md",
+      "sha256": "c3b2699795d07c459457ea79bebc90e34667449b13a2f6e3c7a33795b8502131",
+      "origin": "Book Chapter 30 self-study directions"
+    },
+    {
+      "path": "templates/recommendation/worked-example.md",
+      "sha256": "1d07bb862dead1da7322c49fff3b58c200b950d8642ffdb01fa819d4620cdbf0",
+      "origin": "Book Chapter 31 worked table"
+    },
+    {
+      "path": "templates/recommendation/worksheet.csv",
+      "sha256": "b1a83800a92659c54b1a74c5cc910368d14e236d64f23a638d0ba0fb5cad1f86",
+      "origin": "Book Chapter 31 template fields"
+    },
+    {
+      "path": "templates/recommendation/README.md",
+      "sha256": "d64a06da8f9f92c72e10e34543496981c95395f303635c3f12cf5e92f342d72f",
+      "origin": "Book Chapter 31 self-study directions"
+    },
+    {
+      "path": "templates/career-evidence/worked-example.md",
+      "sha256": "c400608fc21f2f5f4f39b8ad7a3dcfec9472caba18ee5347b40072587d93a6c8",
+      "origin": "Book Chapter 32 worked table"
+    },
+    {
+      "path": "templates/career-evidence/worksheet.csv",
+      "sha256": "b3a14b4ae3fed53b5872a58cc7d4d8e803adb1b696caac3be97af92a2330d148",
+      "origin": "Book Chapter 32 template fields"
+    },
+    {
+      "path": "templates/career-evidence/README.md",
+      "sha256": "7a8ec245ca9f763f7f215345a8975038ef479601c60d8f999b957e0ca4e18c02",
+      "origin": "Book Chapter 32 self-study directions"
+    },
+    {
+      "path": "templates/README.md",
+      "sha256": "94124f5ec3b5b8677cd840dc6497332d5f12096f4319e200665849366c227273",
+      "origin": "Decision dossier guide"
+    }
+  ]
+}

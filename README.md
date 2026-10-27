@@ -4,6 +4,10 @@ Companion worksheets and worked technical fixtures for John Briggs's *The Busine
 
 Harbor Learning and all records, people, costs, metrics, and systems in these files are fictional teaching examples. These files are not production configurations or evidence of results at any real institution.
 
+## Worked answers and decision templates
+
+The [chapter answer guide](answers/README.md) covers all 32 reader chapters. Attempt the paper exercise before opening its answer. The [decision templates](templates/README.md) provide nine reusable worksheets with fictional filled examples for your decision dossier, from the first outcome charter through a capstone recommendation and career evidence.
+
 ## Start here
 
 Use the printed chapter numbers below. Filenames such as `ch09` preserve authoring IDs; they are not the book's chapter numbers. The book can be read without running code. Solve each paper exercise before reading its worked answer.
