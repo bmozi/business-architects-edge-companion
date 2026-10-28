@@ -343,7 +343,7 @@
     },
     {
       "path": "examples/formal-methods/archimate/README.md",
-      "sha256": "4f136b7c03a8a8a3066e3631517a49566352ca04af05ef27f09a2049417ff126",
+      "sha256": "6f91393ab3a130131d69f83a22f50035fb0696c7e9598ec66d551069c193020b",
       "origin": "Original formal-methods teaching asset"
     },
     {
@@ -363,7 +363,7 @@
     },
     {
       "path": "examples/formal-methods/bpmn/README.md",
-      "sha256": "4e45acba82c662a17abbe056c1185328fde2463c820551d5562cbe891da15531",
+      "sha256": "0b49c3526f529512159fc4ec01136f2823f0affefebbd30c475c56a4925dbdb9",
       "origin": "Original formal-methods teaching asset"
     },
     {
