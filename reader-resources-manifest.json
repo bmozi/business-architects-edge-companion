@@ -33,7 +33,7 @@
     },
     {
       "path": "answers/chapter-07.md",
-      "sha256": "a757a71ccbd7220135ebfd0041e4afe1244e9ee4079843594e998cd32ce34afe",
+      "sha256": "b5afc776425813d646b38bc0f87adb4f6ab25d30693a3321a2376099ef8f7bac",
       "origin": "Book Chapter 7 answer key"
     },
     {
@@ -88,12 +88,12 @@
     },
     {
       "path": "answers/chapter-18.md",
-      "sha256": "8cf74c55b1a6a40ac1d6643098af700668be615950164e0feda03e9bd3f8b370",
+      "sha256": "a2d4b6c529114c3a3976b6124893848dca9f78edd792a987a72dcd91afff22e6",
       "origin": "Book Chapter 18 answer key"
     },
     {
       "path": "answers/chapter-19.md",
-      "sha256": "b90fc4b8784a8015935a5480b5c7f94097250982bc10f6b9189f3331d9eaba28",
+      "sha256": "3046ecffe602f54580221016aa8bb4066e2df18d1266f5884e7d8cb38da344b2",
       "origin": "Book Chapter 19 answer key"
     },
     {
@@ -128,12 +128,12 @@
     },
     {
       "path": "answers/chapter-26.md",
-      "sha256": "d70d22f95d8a8fdce97bf4f208d7e01ae5d7ca108ccc5929a357d84a3f43b2c4",
+      "sha256": "27d49c5eb70e76d422b3edaa0e8d7578e8164054069d33a8083c0cf708b9c71c",
       "origin": "Book Chapter 26 answer key"
     },
     {
       "path": "answers/chapter-27.md",
-      "sha256": "e88e34ca2eebccfa545632c56c80d5e51619cb735156dfb88b5b05e8da735e10",
+      "sha256": "b82b3e645b5215238740e38ff7b632e2ce92e54a400bdd260c185892953bd1c3",
       "origin": "Book Chapter 27 answer key"
     },
     {
@@ -143,7 +143,7 @@
     },
     {
       "path": "answers/chapter-29.md",
-      "sha256": "90bc24d9b1b5bfe6e715f7983f76f700c794a43f6c71b6451ed6bdb1874ad4b6",
+      "sha256": "e90007c91198bec79c7717a7d88d4655d86559393b33424242a18c0a71d2f1b7",
       "origin": "Book Chapter 29 answer key"
     },
     {
@@ -153,18 +153,48 @@
     },
     {
       "path": "answers/chapter-31.md",
-      "sha256": "681689bc64db04f1a31146c0cfa1b653caf840942d94e6dcebfce3ff30861be5",
+      "sha256": "743561fe093754f675679989ef502b213168303bb405b4fe41c1c56713a83a95",
       "origin": "Book Chapter 31 answer key"
     },
     {
       "path": "answers/chapter-32.md",
-      "sha256": "2e14fabad327c91aaceb91dd5b96d009f88cf7c5b8cacd0128149c622bb5cb76",
+      "sha256": "20ee8bb24974bf4d9feedb3d1b93388fb8a1eccc72ae0d44aa89f446d2f8e4c3",
       "origin": "Book Chapter 32 answer key"
     },
     {
       "path": "answers/README.md",
       "sha256": "3503c6e488256e5508fdf428331f5981c4e2d957a4a59dfd4cc62ffd9733e6ab",
       "origin": "Reader chapter guide"
+    },
+    {
+      "path": "templates/information-map/worked-example.md",
+      "sha256": "4d9bfbd8ca7e8849505710fef59090d09af8084e3cf250655098803186f247c1",
+      "origin": "Book Chapter 26 worked table"
+    },
+    {
+      "path": "templates/information-map/worksheet.csv",
+      "sha256": "b91d98802e8233a0874e3ce256208fb7fe1887d6941991adb8e86c7a1b3e1ee4",
+      "origin": "Book Chapter 26 template fields"
+    },
+    {
+      "path": "templates/information-map/README.md",
+      "sha256": "de132674546b71c35db21f1db75406a1cc74c65d27954c4a434d84f995551414",
+      "origin": "Book Chapter 26 self-study directions"
+    },
+    {
+      "path": "templates/organization-map/worked-example.md",
+      "sha256": "2ff29d8951fe2be40b406c651daedacb4434720139e8225c1f96272dae765594",
+      "origin": "Book Chapter 29 worked table"
+    },
+    {
+      "path": "templates/organization-map/worksheet.csv",
+      "sha256": "79a46948ed985980df0c5d1f1906945ea59fd501502705c30d6799e6233f44f1",
+      "origin": "Book Chapter 29 template fields"
+    },
+    {
+      "path": "templates/organization-map/README.md",
+      "sha256": "ea2efdc257cd885b21d5d1a1c07d78d980c5243eb97249182037345e2c54ad19",
+      "origin": "Book Chapter 29 self-study directions"
     },
     {
       "path": "templates/outcome-charter/worked-example.md",
@@ -303,8 +333,68 @@
     },
     {
       "path": "templates/README.md",
-      "sha256": "94124f5ec3b5b8677cd840dc6497332d5f12096f4319e200665849366c227273",
+      "sha256": "7b0c902671fe744f4f41e4dc63387b418147adb3097efbabba0bce6634b95419",
       "origin": "Decision dossier guide"
+    },
+    {
+      "path": "examples/formal-methods/README.md",
+      "sha256": "0bdb56b37a2dacb5f97be8995870791313f9d1300b74a5520282580255fa8f04",
+      "origin": "Original formal-methods teaching asset"
+    },
+    {
+      "path": "examples/formal-methods/archimate/README.md",
+      "sha256": "4f136b7c03a8a8a3066e3631517a49566352ca04af05ef27f09a2049417ff126",
+      "origin": "Original formal-methods teaching asset"
+    },
+    {
+      "path": "examples/formal-methods/archimate/r7-explanation-broken.json",
+      "sha256": "db4228e1e950f9928d6aa15879aa41541f05de5b253fcfa5e81a0d878564a0b2",
+      "origin": "Original formal-methods teaching asset"
+    },
+    {
+      "path": "examples/formal-methods/archimate/r7-explanation-broken.svg",
+      "sha256": "93b7f0f66ea22a8a496adab64b43b036bdff1e4120298848e48705972510b6f6",
+      "origin": "Original formal-methods teaching asset"
+    },
+    {
+      "path": "examples/formal-methods/archimate/r7-explanation.json",
+      "sha256": "3dc0bf46c050de450389509c7669364bf1e6935b5f4bd7b3a67b74faa854911e",
+      "origin": "Original formal-methods teaching asset"
+    },
+    {
+      "path": "examples/formal-methods/bpmn/README.md",
+      "sha256": "4e45acba82c662a17abbe056c1185328fde2463c820551d5562cbe891da15531",
+      "origin": "Original formal-methods teaching asset"
+    },
+    {
+      "path": "examples/formal-methods/bpmn/r7-handoff-broken.bpmn",
+      "sha256": "d793da76895bf4a474681f0ffcd9c29bfebe6f23ccfe89edab736b01d34d05a0",
+      "origin": "Original formal-methods teaching asset"
+    },
+    {
+      "path": "examples/formal-methods/bpmn/r7-staff-handoff.bpmn",
+      "sha256": "76dee95b317f75caf728d72a886226c2a0bb19dc3a3fde21dab5e87bf92899a3",
+      "origin": "Original formal-methods teaching asset"
+    },
+    {
+      "path": "scripts/check_bpmn_teaching.py",
+      "sha256": "9946bc9fa5fc262f5af4f40bd23bbb49ee1b8d972683830348944f6349e78811",
+      "origin": "Bounded offline teaching checker"
+    },
+    {
+      "path": "scripts/check_archimate_teaching.py",
+      "sha256": "69ada10c97dbd81954bbf9a01e0cdc4bf1134df4c86ef9aaf9c335492ca294bc",
+      "origin": "Bounded offline teaching checker"
+    },
+    {
+      "path": "examples/formal-methods/fig-ch24-03.svg",
+      "sha256": "37dfdb749867a596d8e7979f4740e59e29175c32119e18a31737ccd77a7b80a5",
+      "origin": "Original editable teaching figure"
+    },
+    {
+      "path": "examples/formal-methods/fig-ch04-03.svg",
+      "sha256": "2ba0b32b9fea4a0bdb34f8f69edf1347f9870a3854ae5f23fbd4ab578a91d873",
+      "origin": "Original editable teaching figure"
     }
   ]
 }

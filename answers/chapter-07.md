@@ -40,3 +40,15 @@ Score two points each for: **outcome and simpler alternative**; **states and inv
 - “Compensate by deleting the case.” Deleting a record may destroy evidence and cannot make a message unread. Choose a domain-approved correction with an audit trail and affected-person response.
 
 The instructor should invite a student to challenge the candidate action workflow if a better form or reviewed draft meets the outcome. That is a valid architectural decision, not avoidance of the topic.
+
+## BPMN repair: notation and business evidence
+
+The cross-pool solid sequence flow is invalid. Keep the staff and receiver sequence paths inside their own participants and connect the submission to the receiver through message flow. The same-pool dashed message flow is also invalid; remove it or model the intended internal ordering with sequence flow, after deciding what work it actually represents. Do not change a line style without checking the process it claims to express.
+
+Rename the staff end to submitted, not learner problem resolved. Even a confirmed receiving disposition does not establish learner understanding or a successful start. Missing operating evidence includes accepted case types/context, permitted data, receiving hours/capacity, receipt and return handling, unresolved-work owner, accessible alternative and a test of the route with appropriate people. No such acceptance is supplied by this exercise. A recommendation to narrow or defer the route can be correct.
+
+The corrected native model treats the two workflows as separate participants for this collaboration. A justified alternative can place internal teams in lanes of a single participant; then sequence flow may cross those lanes, and internal message flow is not the right substitute. Explain what boundary changed and what the model now hides. A department name alone cannot decide the notation.
+
+Score: cross-pool repair with reason 2; same-pool repair with reason 2; truthful end label and distinction from learner outcome 2; two concrete missing operating commitments 2; defensible participant/lane explanation 2. Total 10. Existing workflow/state and arithmetic rubrics remain separate.
+
+Transfer feedback: require a named decision, ordinary/adverse paths, precise end meanings, receiver objection and revision, permitted information and a current human owner. A diagram without a runtime is legitimate descriptive work; it is not an executed workflow. AI-generated labels do not establish authority or capacity.

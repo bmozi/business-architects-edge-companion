@@ -10,3 +10,7 @@ Award 2 each for outcome and affected person; evidence with unknowns; at least t
 
 ## Instructor boundary
 Harbor's memo is proposed teaching material. No real policy, financing, deployment or human acceptance occurred.
+
+## Integrated dossier extension — answer guidance
+
+An information view can expose receipt being mistaken for satisfaction; an organization/dependency view can expose unaccepted receiving capacity. A strong revision changes the first transition state and recommendation, keeps unresolved work owned and names the actual acceptance/test needed next. The ArchiMate relationship is a proposed architecture assertion; the BPMN diagram describes behavior, not permission or a guaranteed resolution. Award credit for selecting the view that changes a consequential choice, or defending a plain table where notation adds no value. Retain the original financial and measurement denominators and all owner gates.

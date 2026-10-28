@@ -6,7 +6,7 @@ Harbor Learning and all records, people, costs, metrics, and systems in these fi
 
 ## Worked answers and decision templates
 
-The [chapter answer guide](answers/README.md) covers all 32 reader chapters. Attempt the paper exercise before opening its answer. The [decision templates](templates/README.md) provide nine reusable worksheets with fictional filled examples for your decision dossier, from the first outcome charter through a capstone recommendation and career evidence.
+The [chapter answer guide](answers/README.md) covers all 32 reader chapters. Attempt the paper exercise before opening its answer. The [decision templates](templates/README.md) provide eleven reusable worksheets with fictional filled examples for your decision dossier, from the first outcome charter through a capstone recommendation and career evidence.
 
 ## Start here
 
@@ -30,3 +30,5 @@ Run the optional offline checks with Python 3: `python3 scripts/check_resources.
 The book gives the context, questions, and limits for each exercise. Work from the chapter before copying a fixture.
 
 Copyright © 2026 John Briggs. All rights reserved. Permission is granted to download and use these files for personal study alongside the book. Redistribution, resale, and production use require the author's written permission.
+
+The [formal-methods examples](examples/formal-methods/README.md) include BPMN handoff and ArchiMate 4 teaching models, deliberate defects, editable diagrams and bounded offline checks. Information and organization worksheets connect these views to the decision dossier.

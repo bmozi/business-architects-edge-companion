@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='utf-8'?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Definitions_R7" targetNamespace="https://example.invalid/harbor/r7/teaching" exporter="Original Harbor teaching model" exporterVersion="1">
+  <bpmn:message id="Message_Request" name="" />
+  <bpmn:collaboration id="Collaboration_R7">
+    <bpmn:participant id="Participant_Staff" name="Staff process" processRef="Process_Staff" />
+    <bpmn:participant id="Participant_Receiver" name="Receiving process" processRef="Process_Receiver" />
+    <bpmn:messageFlow id="MessageFlow_Request" name="Staff request" sourceRef="Task_Submit" targetRef="Task_Check" />
+  </bpmn:collaboration>
+  <bpmn:process id="Process_Staff" isExecutable="false">
+    <bpmn:documentation>Proposed descriptive process. No assistant send/write/case authority; no receiver acceptance inferred.</bpmn:documentation>
+    <bpmn:laneSet id="LaneSet_Staff">
+      <bpmn:lane id="Lane_Staff" name="Staff">
+        <bpmn:flowNodeRef>Start_Staff</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Task_Check</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Gateway_Answer</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Task_Explain</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>End_Explained</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Task_Submit</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>End_Referred</bpmn:flowNodeRef>
+      </bpmn:lane>
+    </bpmn:laneSet>
+    <bpmn:startEvent id="Start_Staff" name="Question" />
+    <bpmn:task id="Task_Check" name="Staff check current R7 source" />
+    <bpmn:exclusiveGateway id="Gateway_Answer" name="Can explain?" default="Flow_Unresolved" gatewayDirection="Diverging" />
+    <bpmn:task id="Task_Explain" name="Staff explain receipt only" />
+    <bpmn:endEvent id="End_Explained" name="Explained" />
+    <bpmn:task id="Task_Submit" name="Staff submit permitted question" />
+    <bpmn:endEvent id="End_Referred" name="Submitted" />
+    <bpmn:sequenceFlow id="Flow_1" sourceRef="Start_Staff" targetRef="Task_Check" />
+    <bpmn:sequenceFlow id="Flow_2" sourceRef="Task_Check" targetRef="Gateway_Answer" />
+    <bpmn:sequenceFlow id="Flow_Answer" sourceRef="Gateway_Answer" targetRef="Task_Explain" name="yes">
+      <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression">staff_can_explain == true</bpmn:conditionExpression>
+    </bpmn:sequenceFlow>
+    <bpmn:sequenceFlow id="Flow_Unresolved" sourceRef="Gateway_Answer" targetRef="Task_Submit" name="otherwise: unresolved" />
+    <bpmn:sequenceFlow id="Flow_3" sourceRef="Task_Explain" targetRef="End_Explained" />
+    <bpmn:sequenceFlow id="Flow_4" sourceRef="Task_Submit" targetRef="Start_Receiver" />
+  </bpmn:process>
+  <bpmn:process id="Process_Receiver" isExecutable="false">
+    <bpmn:startEvent id="Start_Receiver" name="Request">
+      <bpmn:messageEventDefinition id="MessageCatch_Request" messageRef="Message_Request" />
+    </bpmn:startEvent>
+    <bpmn:task id="Task_Assess" name="Receiver assess and record disposition" />
+    <bpmn:endEvent id="End_Receiver" name="Disposition" />
+    <bpmn:sequenceFlow id="Flow_R1" sourceRef="Start_Receiver" targetRef="Task_Assess" />
+    <bpmn:sequenceFlow id="Flow_R2" sourceRef="Task_Assess" targetRef="End_Receiver" />
+  </bpmn:process>
+  <bpmndi:BPMNDiagram id="Diagram_R7">
+    <bpmndi:BPMNPlane id="Plane_R7" bpmnElement="Collaboration_R7">
+      <bpmndi:BPMNShape id="Shape_Participant_Staff" bpmnElement="Participant_Staff" isHorizontal="true">
+        <dc:Bounds x="30" y="35" width="930" height="350" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Shape_Lane_Staff" bpmnElement="Lane_Staff">
+        <dc:Bounds x="60" y="35" width="900" height="350" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Shape_Participant_Receiver" bpmnElement="Participant_Receiver" isHorizontal="true">
+        <dc:Bounds x="30" y="450" width="930" height="170" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Shape_Start_Staff" bpmnElement="Start_Staff">
+        <dc:Bounds x="105" y="130" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="75" y="177" width="100" height="30" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Shape_Task_Check" bpmnElement="Task_Check">
+        <dc:Bounds x="185" y="95" width="155" height="105" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Shape_Gateway_Answer" bpmnElement="Gateway_Answer" isMarkerVisible="true">
+        <dc:Bounds x="380" y="122" width="55" height="55" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="245" y="210" width="150" height="40" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Shape_Task_Explain" bpmnElement="Task_Explain">
+        <dc:Bounds x="490" y="75" width="165" height="105" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Shape_End_Explained" bpmnElement="End_Explained">
+        <dc:Bounds x="715" y="110" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="675" y="155" width="130" height="30" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Shape_Task_Submit" bpmnElement="Task_Submit">
+        <dc:Bounds x="490" y="245" width="165" height="105" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Shape_End_Referred" bpmnElement="End_Referred">
+        <dc:Bounds x="715" y="280" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="675" y="325" width="130" height="30" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Shape_Start_Receiver" bpmnElement="Start_Receiver">
+        <dc:Bounds x="115" y="510" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="85" y="555" width="100" height="30" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Shape_Task_Assess" bpmnElement="Task_Assess">
+        <dc:Bounds x="300" y="485" width="230" height="100" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Shape_End_Receiver" bpmnElement="End_Receiver">
+        <dc:Bounds x="675" y="510" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="630" y="555" width="140" height="30" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="Edge_Flow_1" bpmnElement="Flow_1">
+        <di:waypoint x="141" y="148" />
+        <di:waypoint x="185" y="148" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Edge_Flow_2" bpmnElement="Flow_2">
+        <di:waypoint x="340" y="148" />
+        <di:waypoint x="380" y="148" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Edge_Flow_Answer" bpmnElement="Flow_Answer">
+        <di:waypoint x="435" y="149" />
+        <di:waypoint x="462" y="149" />
+        <di:waypoint x="462" y="127" />
+        <di:waypoint x="490" y="127" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="440" y="90" width="50" height="30" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Edge_Flow_Unresolved" bpmnElement="Flow_Unresolved">
+        <di:waypoint x="408" y="177" />
+        <di:waypoint x="408" y="297" />
+        <di:waypoint x="490" y="297" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="245" y="280" width="145" height="50" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Edge_Flow_3" bpmnElement="Flow_3">
+        <di:waypoint x="655" y="127" />
+        <di:waypoint x="715" y="128" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Edge_Flow_4" bpmnElement="Flow_4">
+        <di:waypoint x="655" y="297" /><di:waypoint x="800" y="297" /><di:waypoint x="800" y="430" /><di:waypoint x="133" y="430" /><di:waypoint x="133" y="510" /></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Edge_Flow_R1" bpmnElement="Flow_R1">
+        <di:waypoint x="151" y="528" />
+        <di:waypoint x="300" y="528" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Edge_Flow_R2" bpmnElement="Flow_R2">
+        <di:waypoint x="530" y="528" />
+        <di:waypoint x="675" y="528" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Edge_MessageFlow_Request" bpmnElement="MessageFlow_Request">
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="270" y="390" width="170" height="25" />
+        </bpmndi:BPMNLabel>
+      <di:waypoint x="572" y="245" /><di:waypoint x="572" y="220" /><di:waypoint x="260" y="220" /><di:waypoint x="260" y="200" /></bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn:definitions>

@@ -4,6 +4,8 @@ These original book examples and worksheets support your decision dossier. Use s
 
 | Book chapter | Template |
 |---|---|
+| 26 | [Information Map](information-map/README.md) |
+| 29 | [Organization Map](organization-map/README.md) |
 | 1 | [Outcome Charter](outcome-charter/README.md) |
 | 2 | [Explanation Card](explanation-card/README.md) |
 | 4 | [Evaluation Case](evaluation-case/README.md) |

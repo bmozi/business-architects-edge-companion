@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="1080" viewBox="0 0 1120 1080">
+<title>Proposed R7 explanation view in ArchiMate 4</title>
+<desc>Application component realizes a wording service that serves the explanation process. That process realizes an explanation capability and a receipt-meaning requirement. This is a proposed target, not evidence of implementation.</desc>
+<defs><marker id="realizes" viewBox="0 0 14 14" refX="13" refY="7" markerWidth="14" markerHeight="14" orient="auto"><path d="M1 1 L13 7 L1 13 Z" fill="white" stroke="#172a3a" stroke-width="1.2"/></marker><marker id="serves" viewBox="0 0 14 14" refX="13" refY="7" markerWidth="14" markerHeight="14" orient="auto"><path d="M1 1 L13 7 L1 13" fill="none" stroke="#172a3a" stroke-width="1.2"/></marker></defs>
+<rect width="1120" height="1080" fill="white"/>
+<g font-family="Arial, sans-serif" fill="#172a3a" font-size="25">
+<path d="M420 300 L280 180" fill="none" stroke="#172a3a" stroke-width="2.5" stroke-dasharray="8 6" marker-end="url(#realizes)"/>
+<text x="275" y="245" text-anchor="middle" font-size="23">realization</text>
+<path d="M700 300 L840 180" fill="none" stroke="#172a3a" stroke-width="2.5" stroke-dasharray="8 6" marker-end="url(#realizes)"/>
+<text x="845" y="245" text-anchor="middle" font-size="23">realization</text>
+<path d="M560 430 L560 550" fill="none" stroke="#172a3a" stroke-width="2.5" marker-end="url(#serves)"/>
+<text x="660" y="498" text-anchor="middle" font-size="23">serving</text>
+<path d="M560 780 L560 660" fill="none" stroke="#172a3a" stroke-width="2.5" stroke-dasharray="8 6" marker-end="url(#realizes)"/>
+<text x="665" y="735" text-anchor="middle" font-size="23">realization</text>
+<polygon points="64,60 510,60 510,166 496,180 50,180 50,74" fill="#ede8f2" stroke="#172a3a" stroke-width="2.5"/>
+<text x="280.0" y="89" text-anchor="middle" font-size="20">«Requirement»</text>
+<text x="280.0" y="124" text-anchor="middle">Receipt explanation must</text>
+<text x="280.0" y="153" text-anchor="middle">preserve R7 meaning</text>
+<rect x="610" y="60" width="460" height="120" rx="14" fill="#f5efdd" stroke="#172a3a" stroke-width="2.5"/>
+<text x="840.0" y="89" text-anchor="middle" font-size="20">«Capability»</text>
+<text x="840.0" y="124" text-anchor="middle">AI drafting application</text>
+<rect x="300" y="300" width="520" height="130" rx="14" fill="#f5efdd" stroke="#172a3a" stroke-width="2.5"/>
+<text x="560.0" y="329" text-anchor="middle" font-size="20">«Process»</text>
+<text x="560.0" y="364" text-anchor="middle">Check approved source</text>
+<text x="560.0" y="393" text-anchor="middle">and explain receipt</text>
+<rect x="300" y="550" width="520" height="110" rx="50" fill="#e7f0f3" stroke="#172a3a" stroke-width="2.5"/>
+<text x="560.0" y="579" text-anchor="middle" font-size="20">«Service»</text>
+<text x="560.0" y="614" text-anchor="middle">Presenting approved</text>
+<text x="560.0" y="643" text-anchor="middle">receipt wording</text>
+<rect x="300" y="780" width="520" height="110" rx="0" fill="#e7f0f3" stroke="#172a3a" stroke-width="2.5"/>
+<rect x="288" y="800" width="28" height="18" fill="#e7f0f3" stroke="#172a3a" stroke-width="2"/>
+<rect x="288" y="828" width="28" height="18" fill="#e7f0f3" stroke="#172a3a" stroke-width="2"/>
+<text x="560.0" y="809" text-anchor="middle" font-size="20">«ApplicationComponent»</text>
+<text x="560.0" y="844" text-anchor="middle">Existing delivery application</text>
+<text x="560.0" y="873" text-anchor="middle">(candidate support)</text>
+<text x="560" y="960" text-anchor="middle" font-size="23">Dashed + hollow triangle: realization, toward what is realized</text>
+<text x="560" y="996" text-anchor="middle" font-size="23">Solid + open arrow: serving, toward the user of functionality</text>
+<text x="560" y="1040" text-anchor="middle" font-size="23">PROPOSED TARGET • omitted owners and evidence still require verification</text>
+</g></svg>

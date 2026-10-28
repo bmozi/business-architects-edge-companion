@@ -49,3 +49,15 @@ Award one point each for:
 - **“The review queue shrank, so the governance change worked.”** Ask whether escaped wrong guidance, access attempts, Support load and learner understanding improved or worsened.
 
 Accept a stricter formal approval path where an actual institution requires it, provided the learner explains its authority, cost, capacity and evidence. Accept a simpler static service in place of AI when it meets the learner need more reliably.
+
+## Transition-state repair — worked answer
+
+The proposed intermediate state fails because it removes usable help before a replacement is established, assigns cases/hours beyond receiver acceptance, and couples the draft stop to help availability. Missing outage evidence prevents claiming continuity. A date on a roadmap cannot establish any of these properties.
+
+A smaller coherent state preserves approved receipt-only explanation and the existing permitted help path; routes only the accepted evidence-review subset during staffed hours; retains sending ownership for other unresolved work; and can stop drafting while keeping explanation/help available. If the actual existing route cannot be confirmed, hold affected exposure rather than inventing fallback.
+
+Policy accepts wording and negative cases; sending/receiving owners accept case types, hours and disposition; Engineering/operations demonstrate independent stop and fallback; Security verifies permitted context/access; release authority decides exposure after the required evidence. Acceptable checks include receiver refusal, out-of-hours handling, wrong-source drafting and model outage. Reordering packages revises the roadmap; verifying a delivered arrangement and accepting exposure are separate decisions.
+
+A rise in unresolved or abandoned questions, wrong receipt-to-satisfaction wording, unusable fallback or unacceptable receiving load can trigger investigation and architecture revision. These observations are not proof that AI is needed. Keeping the static path and abandoning the optional AI component is a valid answer.
+
+Ten-point rubric: three for distinct defects; two for a coherent reduced state with truthful semantics and retained ownership; three for checks and actual domain/release authorities; one for roadmap versus acceptance; one for a meaningful revisit trigger. Score reasoning and demonstrated coherence, not agreement with a particular release date.

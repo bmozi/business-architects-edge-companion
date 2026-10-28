@@ -10,3 +10,7 @@ Award 2 each for clear stakes; distinct personal contribution and team credit; g
 
 ## Instructor boundary
 No interview or learner test was run. The chapter does not assert John's actual employer work beyond material he separately supplied.
+
+## Formal-methods evidence reflection
+
+Accept a clearly labeled simulation claim supported by a current/target/gap record, information/organization map, relationship or workflow repair and a visible decision revision. Require the learner to explain which objection changed which artifact. Reject claims of real Harbor delivery, certification, complete framework mastery or sole ownership of collective work. Maintenance, mentoring, prevention and continuity can be meaningful contributions with appropriate evidence and attribution.

@@ -47,3 +47,15 @@ A learner may favor a staff-reviewed AI evaluation earlier than the worked answe
 - **“The ten-case worksheets prove static is 80% and AI is 90% accurate.”** They measure different invented samples and outcomes. Require a comparable task, denominators, representative cases and expert correction cost before making a comparative claim.
 
 The teach-back question is: “How can a principle increase team autonomy while protecting a learner?” A strong answer uses a concrete local decision that no longer needs a committee and a cross-boundary condition that still needs its actual owner.
+
+## ADM target-repair paper packet — worked answer
+
+Three defects: receipt is treated as satisfaction without Policy authority; all exceptions are assigned to Admissions beyond its accepted evidence-review scope/hours; replacement of help removes continuity without a demonstrated alternative. Neither an AI label nor a complete diagram repairs them.
+
+A defensible revised target preserves receipt-only wording on an authorized path, keeps satisfaction with authorized evidence review, routes only the accepted evidence-review subset during staffed hours, and retains ownership of other unresolved work until an appropriate receiver accepts it. Keep existing help available; defer any exposure that lacks a usable permitted route. No autonomous AI mark, send, write or case creation follows from this packet.
+
+Trace the semantic repair to Policy and a receipt-only negative test; the route repair to the sending/receiving owners and refusal/out-of-hours rehearsal; continuity to operations/release and a demonstrated stop/fallback path. Missing baseline facts include current help availability/accessibility, actual routing behavior, access enforcement and operating capacity. State these as unknowns rather than inventing a deployed architecture.
+
+A broader target would require a legitimate need, approved meanings and action boundaries, accepted receiver capacity and permitted context, demonstrated access/continuity, comparative evidence and actual release authority. Merely obtaining an AI model with better test scores is insufficient. A learner can defend delaying the entire change if the current route cannot be established.
+
+Score ten points: three for the distinct defects, three for owner-and-check repair links, two for honest baseline unknowns, one for keeping proposal/evaluation separate from release, and one for evidence that could change the recommendation. For transfer, require comparable concerns, a legitimate participant objection and a visible revision, rather than a particular diagram shape.

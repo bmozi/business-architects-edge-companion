@@ -62,3 +62,11 @@ Do not translate the total into a claim about job readiness. For feedback, ident
 ## Instructor evidence boundary
 
 The chapter's four cited external sources support working distinctions about capabilities, processes, organizational ends and means, and AI governance responsibilities. They do not validate Harbor's map or the effectiveness of any option. The instructor should not present this fictional exercise as a pilot, a university case study, a benchmark, or evidence that AI improves outcomes.
+
+## Information-map repair: worked answer
+
+The packet contains a report of completed upload and a reference to a rule source. It supplies no authorized Review decision. Treat `upload_complete` according to the interface's actual receipt contract, not as a statement of satisfaction. Safer wording is: “Your upload is reported complete. That does not establish that the requirement is satisfied; an authorized review is needed.” If the interface contract does not establish receipt, narrow that wording further. Missing review data mean unknown here, not rejected or approved.
+
+Policy resolves rule meaning; the authorized review/source owner establishes review status. Engineering maps source fields to the right concepts and enforces permitted access, but cannot infer a missing decision. Negative test: an upload-complete response without an authorized decision must never produce satisfied/approved guidance. Also challenge stale rule versions and wrong-learner association. A concept map is not a substitute for checking those controls.
+
+Score 2 each: separate receipt/submission from review decision; identify missing fact without inventing rejection; produce bounded wording; name appropriate authority/source; give a negative technical test. Total 10. Transfer feedback rewards two concrete meanings, a consequential decision, a disconfirming example and a revised relationship; more boxes alone earn no credit.

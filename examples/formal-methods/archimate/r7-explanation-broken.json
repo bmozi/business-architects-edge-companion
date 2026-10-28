@@ -1,0 +1,66 @@
+{
+  "format": "book-teaching-graph-1",
+  "language": "ArchiMate",
+  "version": "4",
+  "status": "deliberately broken teaching proposal",
+  "viewpoint": "Policy and operating owners inspect whether an application-supported explanation preserves receipt meaning",
+  "elements": [
+    {
+      "id": "need",
+      "type": "Requirement",
+      "name": "Receipt explanation must preserve R7 meaning"
+    },
+    {
+      "id": "ability",
+      "type": "Capability",
+      "name": "AI drafting application"
+    },
+    {
+      "id": "work",
+      "type": "Process",
+      "domain": "business",
+      "name": "Check approved source and explain receipt"
+    },
+    {
+      "id": "offering",
+      "type": "Service",
+      "domain": "application",
+      "name": "Presenting approved receipt wording"
+    },
+    {
+      "id": "app",
+      "type": "ApplicationComponent",
+      "name": "Existing delivery application (candidate support)"
+    }
+  ],
+  "relationships": [
+    {
+      "id": "R1",
+      "type": "Realization",
+      "source": "work",
+      "target": "need",
+      "source_rule": "\u00a76.7 core behavior \u2192 requirement; \u00a75.1.4"
+    },
+    {
+      "id": "R2",
+      "type": "Realization",
+      "source": "work",
+      "target": "ability",
+      "source_rule": "\u00a77.3.1 core behavior \u2192 capability"
+    },
+    {
+      "id": "R3",
+      "type": "Serving",
+      "source": "work",
+      "target": "offering",
+      "source_rule": "\u00a74.2.1 and \u00a75.2.1 service \u2192 behavior"
+    },
+    {
+      "id": "R4",
+      "type": "Realization",
+      "source": "app",
+      "target": "offering",
+      "source_rule": "\u00a75.1.4 application component realizing service via nesting example; same relationship explicit here"
+    }
+  ]
+}

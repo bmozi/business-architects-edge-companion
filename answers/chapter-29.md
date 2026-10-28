@@ -48,3 +48,11 @@ Score each dimension 0, 1 or 2. Give 2 for concrete, internally consistent and c
 | Adaptive influence and AI limits | Records a legitimate objection that changes scope or sequence; bounds AI to approved inputs, traceable proposals and human validation/commitment. |
 
 Feedback should begin with the first missing receiver or unsupported “ready” claim. Invite revision from the receiving function's point of view. A sanitized or fictional work example earns full credit when reasoning is sound; privileged employer details are not required. APQC, UK readiness guidance and RFC 9110 support distinctions and protocol meaning, not a claim that the invented Harbor handoff has been accepted or tested.
+
+## Organization-map repair: worked answer
+
+The register overstates Admissions acceptance. Narrow the proposed route to review questions carrying the accepted requirement identifier and permitted review context; even this does not create extra staffing or a response-time promise. Keep policy-meaning and upload-mechanism questions outside that acceptance until Policy/Support and the appropriate technical owner agree their respective routes. Sending staff retain unresolved/returned work under an explicit arrangement; do not abandon it between boxes.
+
+The map's contribution link means Admissions participates in the capability, not that it receives every case. An organization chart or responsibility matrix cannot replace the receiver's agreement. Unknowns include coverage/capacity, volume, accessible alternatives, required context for other case types, return handling, current protected-use conditions and which authority can commit each change. The sponsor can decide resources or scope, not assign review authority by implication.
+
+Score 2 each: distinguish contribution from acceptance; narrow case types correctly; route other decisions to appropriate roles without invented commitments; preserve sending/return responsibility; identify two concrete unknowns including time/capacity. Total 10. Transfer feedback checks unit/role/capability separation, information cross-map, a receiver's legitimate objection and a consequential revision.

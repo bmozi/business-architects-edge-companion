@@ -59,3 +59,13 @@ Score each dimension 0, 1 or 2. Give 2 for concrete, internally consistent evide
 | Adaptive decision | Has a reversible next step, decision gate, stop/revise condition and a plausible green-project/flat-outcome failure response. |
 
 Feedback should point to the first unsupported link and ask the learner to repair it. A sanitized or fully fictional transfer case is acceptable; do not reward privileged workplace access. The government's benefits and assurance guidance informs the exercise design but does not validate the fictional Harbor trace or prescribe a single organizational role chart.
+
+## ArchiMate 4 small-view exercise — worked answer
+
+The four statements are: the Application Component realizes the Service; the application-context Service serves the business-context Process; the Process realizes the Capability; the Process realizes the Requirement. Dashed line/hollow triangle means realization toward what is realized; solid/open arrow means serving toward the functionality user. The model is an original proposed target, not a test report.
+
+Restore the capability name to “Explain current status and next action accurately,” keeping the tool in an Application Component. Restore the serving direction from the wording Service to the explanation Process. The reversed pair may express legal but wrong business meaning; distinguish semantic agreement from type validity.
+
+Information question: which approved source/version governs receipt and how is it kept distinct from satisfaction? Organization question: who may explain the rule, and who accepts unresolved case types/hours/context? Checks include Policy-approved negative cases, source binding, permitted access, real receiver acceptance, usable fallback and observed comprehension where permitted. Component/service realization does not establish those controls, policy authority, send permission or learner results. A model that omits them must not silently imply they exist.
+
+Award ten points: four correct relationship sentences; two correct symbol meanings; two repairs; one meaningful omitted information/organization check; one explanation of model assertion versus evidence and authority. A learner can reasonably retain a plain table if the formal view adds no decision value.
