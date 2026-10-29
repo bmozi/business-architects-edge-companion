@@ -1,6 +1,6 @@
 # Chapter 19: Govern Decisions and Exceptions — worked answers
 
-Harbor is fictional. The decision route, board capacity, E07 exception and paper packet are teaching proposals; no WGU or Harbor approval or policy waiver is represented.
+Harbor is fictional. The decision route, board capacity, E07 exception and paper packet are teaching proposals; no Harbor approval or policy waiver is represented.
 
 ## Teach-back
 

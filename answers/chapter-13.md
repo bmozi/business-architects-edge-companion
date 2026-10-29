@@ -1,6 +1,6 @@
 # Chapter 13: Lead Engineering Organizations — worked answers
 
-This guide works fictional Harbor planning packets. It is not an employment, compensation, hiring, performance or on-call policy for WGU or any real employer.
+This guide works fictional Harbor planning packets. It is not an employment, compensation, hiring, performance or on-call policy for any real employer.
 
 ## Teach-back
 

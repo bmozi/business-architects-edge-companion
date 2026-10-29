@@ -1,6 +1,6 @@
 # Chapter 14: Lead Across Functions — worked answers
 
-All examples are fictional. No Harbor or WGU cross-functional acceptance, policy approval, support capacity, release or learner outcome is claimed.
+All examples are fictional. No Harbor cross-functional acceptance, policy approval, support capacity, release or learner outcome is claimed.
 
 ## Teach-back
 

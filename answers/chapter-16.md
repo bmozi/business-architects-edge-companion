@@ -1,6 +1,6 @@
 # Chapter 16: Align Business and Technology — worked answers
 
-All packets are fictional. No Harbor/WGU strategy, architecture decision, accessible-user result, R7 test, release or business benefit is observed.
+All packets are fictional. No Harbor strategy, architecture decision, accessible-user result, R7 test, release or business benefit is observed.
 
 ## Teach-back
 

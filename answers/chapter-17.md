@@ -1,6 +1,6 @@
 # Chapter 17: Lead Organizational Change — worked answers
 
-All Harbor packets are invented. No WGU or Harbor training, pilot, policy approval, operational acceptance, live release or learner outcome is claimed.
+All Harbor packets are invented. No Harbor training, pilot, policy approval, operational acceptance, live release or learner outcome is claimed.
 
 ## Teach-back
 

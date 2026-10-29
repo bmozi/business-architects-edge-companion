@@ -1,6 +1,6 @@
 # Chapter 11: Modernize Developer Experience — worked answers
 
-This guide works a fictional Harbor packet. It is not a WGU study, actual developer interview, observed CI pipeline or demonstration that a platform purchase pays for itself.
+This guide works a fictional Harbor packet. It is not an actual institutional study, actual developer interview, observed CI pipeline or demonstration that a platform purchase pays for itself.
 
 ## Teach-back
 

@@ -1,6 +1,6 @@
 # Chapter 15: Partner with Executives — worked answers
 
-All examples are fictional and separate from other chapter cost worksheets. No Harbor or WGU executive decision, budget, policy acceptance, learner benefit or staffing commitment is claimed.
+All examples are fictional and separate from other chapter cost worksheets. No Harbor executive decision, budget, policy acceptance, learner benefit or staffing commitment is claimed.
 
 ## Teach-back
 

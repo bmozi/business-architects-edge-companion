@@ -1,6 +1,6 @@
 # Chapter 18: Set Architecture Direction — worked answers
 
-Harbor and both ten-case worksheets are invented. This guide does not confer WGU/Harbor policy, architecture or release approval.
+Harbor and both ten-case worksheets are invented. This guide does not confer Harbor policy, architecture or release approval.
 
 ## Teach-back
 

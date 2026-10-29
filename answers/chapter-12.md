@@ -1,6 +1,6 @@
 # Chapter 12: Operate and Modernize Platforms — worked answers
 
-This guide works the fictional Harbor R7-D29 case and its separate paper exercise. It is not a production runbook, WGU operational record, provider deployment or human sign-off.
+This guide works the fictional Harbor R7-D29 case and its separate paper exercise. It is not a production runbook, actual operational record, provider deployment or human sign-off.
 
 ## Teach-back
 
