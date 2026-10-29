@@ -6,12 +6,12 @@ Harbor Learning and all records, people, costs, metrics, and systems in these fi
 
 ## Worked answers and decision templates
 
-The [chapter answer guide](answers/README.md) covers all 32 reader chapters. Attempt the paper exercise before opening its answer. The [decision templates](templates/README.md) provide eleven reusable worksheets with fictional filled examples for your decision dossier, from the first outcome charter through a capstone recommendation and career evidence.
+The [chapter answer guide](answers/README.md) covers all 32 reader chapters. Attempt the paper exercise before opening its answer. The [decision templates](templates/README.md) provide fifteen reusable worksheets with fictional filled examples for your decision dossier, from the first outcome charter through a capstone recommendation and career evidence.
 
 ## A practical route for a new business architect
 
 1. Read Chapter 1 and start the [outcome charter](templates/outcome-charter/README.md) with one safely discussable problem.
-2. Work through Chapters 26–29 and the four practice kits below. Add the [information map](templates/information-map/README.md) and [organization map](templates/organization-map/README.md) to explain meanings, contributions and actual commitments.
+2. Work through Chapters 26–29 and the four practice kits below. Use the new [value-stage](templates/value-stage-map/README.md), [offering-to-operation](templates/offering-to-operation/README.md), [portfolio](templates/portfolio-allocation/README.md) and [maintained-record](templates/architecture-record/README.md) worksheets for the added exercises. Add the [information map](templates/information-map/README.md) and [organization map](templates/organization-map/README.md) to explain meanings, contributions and actual commitments.
 3. Use Chapters 18–19 to compare current and target architecture, identify gaps, plan usable transitions and route decisions. Inspect the [architecture decision worksheet](templates/architecture-decision/README.md) and [worked answers](answers/README.md).
 4. Use the [BPMN handoff](examples/formal-methods/bpmn/README.md) and [ArchiMate 4 view](examples/formal-methods/archimate/README.md) when a workflow or supporting relationship needs more precision.
 5. Attempt the Chapter 31 capstone before reading its [answer](answers/chapter-31.md). Produce a recommendation with viable alternatives, evidence, owner gates and a condition that would change your mind.

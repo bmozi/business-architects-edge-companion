@@ -1,6 +1,6 @@
 # Service Card: fictional worked example
 
-From reader Chapter 5. Give consumers a usable task, access, configuration, support and unavailable-path contract. These are proposed or illustrative Harbor records, not actual agreements or outcomes.
+From reader Chapter 5. Give consumers a usable task, access, configuration, support and unavailable-path contract. These are proposed or illustrative teaching records, not actual agreements or outcomes.
 
 | Contract field | Proposed service behavior |
 |---|---|

@@ -55,3 +55,17 @@ Score each dimension 0, 1 or 2. Give 2 for concrete, reproducible, justified rea
 | Adaptive decision and AI limits | Gives a staged recommendation, review/stop gate, viable simpler route, and bounded AI source/authority/verification/fallback if AI is proposed. Full credit is possible without AI. |
 
 Feedback should identify the first unjustified comparison or hidden assumption and ask for a revision. Accept sanitized or fictional transfer examples; do not require confidential employer data. The external finance guidance informs the method but does not validate any invented price, probability, capacity value or outcome.
+
+## Quarterly portfolio exercise: worked answer
+
+This packet is separate from the chapter's two-year model. R is required; A and B require E; C does not. Money, engineering days and policy days are different constraints.
+
+- R+E+A+B: $6,000+$8,000+$12,000+$10,000 = **$36,000**; 2+3+5+4 = **14 engineering days**; 2+1+2+2 = **7 policy days**. This exceeds $30,000/12/6 by $6,000/2/1 respectively.
+- At policy capacity **4**, the complete feasible combinations are **R** ($6,000,2,2), **R+C** ($14,000,6,2), **R+E** ($14,000,5,3), and **R+E+C** ($22,000,9,3). There are no other feasible combinations under the stipulated dependencies and mandatory R. Every A/B combination needs at least R+E plus that component, or 5 policy days.
+- R+E+B is a defensible candidate only under the original capacity and the stipulated preference for cross-channel consistency: **$24,000,9,5**. It is not a mathematically unique best choice.
+
+A valid reduced-capacity recommendation is R+C if the preference problem merits action and C's acceptance remains valid, or R now while discretionary evidence is gathered. R+E can be justified by a credible later consumer or independent value, but E is not automatically worth funding. R+E+C spends $8,000 and 3 engineering/1 policy days more than R+C; identify what that additional investment buys before preferring it. Reserving budget is legitimate.
+
+A and B might both claim the same repeat contacts avoided for the same population/period. Keep the comparator and benefit owner explicit; do not add overlapping projected saved hours. Charge E once in a union. If each consumer needs distinct integration, keep those real costs separate rather than assuming sharing makes them free. A ranked list is not a feasible portfolio.
+
+Score 2 each for three-resource arithmetic; mandatory/dependency closure; feasible reduced-capacity combinations; strategy/evidence-aware choice; single counting of shared costs/benefits; revised authority/sequence and deferred consequence. Total 12. Common errors: leave out E, fund E twice, substitute spare money for unavailable Policy, cut a review day without a changed scope/acceptance, or declare the largest feasible spend the optimum. The offline checker enumerates the entire finite packet but supplies no strategy ranking.

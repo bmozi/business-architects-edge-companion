@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="650" viewBox="0 0 1120 650"><title>One stage needs several abilities</title><desc>Original proposed Harbor capability-to-value-stage cross-map. Marks indicate need, not actual performance or commitment.</desc>
+<style>text{font-family:Arial,sans-serif;fill:#173248}.title{font-size:30px;font-weight:bold}.body{font-size:21px}.small{font-size:19px}.bold{font-size:22px;font-weight:bold}</style>
+<rect width="1120" height="650" fill="#f8fafc"/>
+<text x="35" y="48" class="title" text-anchor="start">One stage needs several abilities</text>
+<text x="35" y="84" class="body" text-anchor="start">Harbor: proposed relationships, not performance scores</text>
+<text x="425" y="137" class="bold" text-anchor="middle">S1</text>
+<text x="425" y="168" class="body" text-anchor="middle">Understand</text>
+<text x="595" y="137" class="bold" text-anchor="middle">S2</text>
+<text x="595" y="168" class="body" text-anchor="middle">Submit</text>
+<text x="765" y="137" class="bold" text-anchor="middle">S3</text>
+<text x="765" y="168" class="body" text-anchor="middle">Review</text>
+<text x="935" y="137" class="bold" text-anchor="middle">S4</text>
+<text x="935" y="168" class="body" text-anchor="middle">Next action</text>
+<rect x="26" y="188" width="1066" height="76" rx="8" fill="#e8eff5"/>
+<text x="42" y="217" class="body" text-anchor="start">Maintain approved</text>
+<text x="42" y="244" class="body" text-anchor="start">requirement meaning</text>
+<rect x="360" y="205" width="130" height="45" rx="6" fill="#d5e4ef" stroke="#173248"/>
+<text x="425" y="234" class="small" text-anchor="middle">NEEDED</text>
+<rect x="530" y="205" width="130" height="45" rx="6" fill="#d5e4ef" stroke="#173248"/>
+<text x="595" y="234" class="small" text-anchor="middle">NEEDED</text>
+<rect x="700" y="205" width="130" height="45" rx="6" fill="#d5e4ef" stroke="#173248"/>
+<text x="765" y="234" class="small" text-anchor="middle">NEEDED</text>
+<rect x="870" y="205" width="130" height="45" rx="6" fill="#d5e4ef" stroke="#173248"/>
+<text x="935" y="234" class="small" text-anchor="middle">NEEDED</text>
+<rect x="26" y="274" width="1066" height="76" rx="8" fill="#f1f5f8"/>
+<text x="42" y="303" class="body" text-anchor="start">Explain current status</text>
+<text x="42" y="330" class="body" text-anchor="start">and next action</text>
+<rect x="360" y="291" width="130" height="45" rx="6" fill="#d5e4ef" stroke="#173248"/>
+<text x="425" y="320" class="small" text-anchor="middle">NEEDED</text>
+<rect x="530" y="291" width="130" height="45" rx="6" fill="#d5e4ef" stroke="#173248"/>
+<text x="595" y="320" class="small" text-anchor="middle">NEEDED</text>
+<text x="765" y="320" class="bold" text-anchor="middle">—</text>
+<rect x="870" y="291" width="130" height="45" rx="6" fill="#d5e4ef" stroke="#173248"/>
+<text x="935" y="320" class="small" text-anchor="middle">NEEDED</text>
+<rect x="26" y="360" width="1066" height="76" rx="8" fill="#e8eff5"/>
+<text x="42" y="389" class="body" text-anchor="start">Review submitted</text>
+<text x="42" y="416" class="body" text-anchor="start">evidence</text>
+<text x="425" y="406" class="bold" text-anchor="middle">—</text>
+<text x="595" y="406" class="bold" text-anchor="middle">—</text>
+<rect x="700" y="377" width="130" height="45" rx="6" fill="#d5e4ef" stroke="#173248"/>
+<text x="765" y="406" class="small" text-anchor="middle">NEEDED</text>
+<text x="935" y="406" class="bold" text-anchor="middle">—</text>
+<rect x="26" y="446" width="1066" height="76" rx="8" fill="#f1f5f8"/>
+<text x="42" y="475" class="body" text-anchor="start">Route unresolved</text>
+<text x="42" y="502" class="body" text-anchor="start">cases to help</text>
+<rect x="360" y="463" width="130" height="45" rx="6" fill="#d5e4ef" stroke="#173248"/>
+<text x="425" y="492" class="small" text-anchor="middle">NEEDED</text>
+<rect x="530" y="463" width="130" height="45" rx="6" fill="#d5e4ef" stroke="#173248"/>
+<text x="595" y="492" class="small" text-anchor="middle">NEEDED</text>
+<rect x="700" y="463" width="130" height="45" rx="6" fill="#d5e4ef" stroke="#173248"/>
+<text x="765" y="492" class="small" text-anchor="middle">NEEDED</text>
+<rect x="870" y="463" width="130" height="45" rx="6" fill="#d5e4ef" stroke="#173248"/>
+<text x="935" y="492" class="small" text-anchor="middle">NEEDED</text>
+<text x="35" y="588" class="body" text-anchor="start">Read across: one ability can support several value stages.</text>
+<text x="35" y="623" class="small" text-anchor="start">Dash: not asserted in this view. Each relationship needs human validation.</text>
+</svg>

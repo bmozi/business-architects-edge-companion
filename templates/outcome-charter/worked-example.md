@@ -1,6 +1,6 @@
 # Outcome Charter: fictional worked example
 
-From reader Chapter 1. Define the person, outcome, evidence, unknowns and next decision. These are proposed or illustrative Harbor records, not actual agreements or outcomes.
+From reader Chapter 1. Define the person, outcome, evidence, unknowns and next decision. These are proposed or illustrative teaching records, not actual agreements or outcomes.
 
 | Charter field | Harbor's initial agreement |
 |---|---|

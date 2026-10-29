@@ -1,0 +1,98 @@
+{
+  "status": "Separate synthetic teaching packets; not Harbor budgets or observed results",
+  "value_cross_map": {
+    "stages": [
+      "S1 Understand",
+      "S2 Submit",
+      "S3 Review",
+      "S4 Next action"
+    ],
+    "capabilities": [
+      "Maintain approved requirement meaning",
+      "Explain current status and next action",
+      "Review submitted evidence",
+      "Route unresolved cases to help"
+    ],
+    "needed": [
+      [
+        true,
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        false,
+        true
+      ],
+      [
+        false,
+        false,
+        true,
+        false
+      ],
+      [
+        true,
+        true,
+        true,
+        true
+      ]
+    ],
+    "unmarked_means": "Not asserted in this bounded proposed view; not a universal prohibition"
+  },
+  "quarterly_portfolio": {
+    "limits": {
+      "cash_usd": 30000,
+      "engineering_days": 12,
+      "policy_days": 6
+    },
+    "changed_policy_days": 4,
+    "mandatory": [
+      "R"
+    ],
+    "components": {
+      "R": {
+        "cash_usd": 6000,
+        "engineering_days": 2,
+        "policy_days": 2,
+        "requires": []
+      },
+      "E": {
+        "cash_usd": 8000,
+        "engineering_days": 3,
+        "policy_days": 1,
+        "requires": []
+      },
+      "A": {
+        "cash_usd": 12000,
+        "engineering_days": 5,
+        "policy_days": 2,
+        "requires": [
+          "E"
+        ]
+      },
+      "B": {
+        "cash_usd": 10000,
+        "engineering_days": 4,
+        "policy_days": 2,
+        "requires": [
+          "E"
+        ]
+      },
+      "C": {
+        "cash_usd": 8000,
+        "engineering_days": 4,
+        "policy_days": 0,
+        "requires": []
+      }
+    }
+  },
+  "maintenance_offering": {
+    "annual_fee_usd": 1200,
+    "scheduled_service_and_admin_usd": 900,
+    "additional_emergency_visit_usd": 200,
+    "other_fixed_overhead_included": false,
+    "emergency_probabilities_known": false
+  }
+}

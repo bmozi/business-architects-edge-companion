@@ -128,22 +128,22 @@
     },
     {
       "path": "answers/chapter-26.md",
-      "sha256": "27d49c5eb70e76d422b3edaa0e8d7578e8164054069d33a8083c0cf708b9c71c",
+      "sha256": "c54512281370a29143b916571852b7477b48f390f4554b1d1b7acbc5e6d1b4c2",
       "origin": "Book Chapter 26 answer key"
     },
     {
       "path": "answers/chapter-27.md",
-      "sha256": "b82b3e645b5215238740e38ff7b632e2ce92e54a400bdd260c185892953bd1c3",
+      "sha256": "05c47d48205b25bb2e83aef0dfaa046bed57edd9aae5327d3f3a77c564bf7444",
       "origin": "Book Chapter 27 answer key"
     },
     {
       "path": "answers/chapter-28.md",
-      "sha256": "a9513edfbeb83a2696b1715d7c99a378403056b45f98488f13f52e5fdd59a801",
+      "sha256": "7679f3189ec1d1011644e5b9d3cc45c32ea591dc5d4cb288583000e774030a06",
       "origin": "Book Chapter 28 answer key"
     },
     {
       "path": "answers/chapter-29.md",
-      "sha256": "e90007c91198bec79c7717a7d88d4655d86559393b33424242a18c0a71d2f1b7",
+      "sha256": "8b36ff27c2b8755f8a9d2e4db607ad8a70ff8fd83de3c0d3a2948c64cfc78b8c",
       "origin": "Book Chapter 29 answer key"
     },
     {
@@ -153,7 +153,7 @@
     },
     {
       "path": "answers/chapter-31.md",
-      "sha256": "743561fe093754f675679989ef502b213168303bb405b4fe41c1c56713a83a95",
+      "sha256": "20cfd8e47d302e37e9c2855e1e7bb911dda6209d9c15a66b24361351f0d69f48",
       "origin": "Book Chapter 31 answer key"
     },
     {
@@ -167,8 +167,68 @@
       "origin": "Reader chapter guide"
     },
     {
+      "path": "templates/value-stage-map/worked-example.md",
+      "sha256": "ba6827952adb8aee7a3a879427cf275b16429e86168d986b5a7939cb3fe46929",
+      "origin": "Book Chapter 26 worked table"
+    },
+    {
+      "path": "templates/value-stage-map/worksheet.csv",
+      "sha256": "25e32b3fe60a001198785a67ae4fa225e01c754c1eeccac8e403dd779720f801",
+      "origin": "Book Chapter 26 template fields"
+    },
+    {
+      "path": "templates/value-stage-map/README.md",
+      "sha256": "28d060f32726a5423b1fa23e2c6dc7cc6a8db304db3924cc26b369b3de86fe81",
+      "origin": "Book Chapter 26 self-study directions"
+    },
+    {
+      "path": "templates/portfolio-allocation/worked-example.md",
+      "sha256": "f8bda5fe4b401fa2d3f27ba2b556516d50a1aa30cbcaa7d394e18d4872d8ce29",
+      "origin": "Book Chapter 28 worked table"
+    },
+    {
+      "path": "templates/portfolio-allocation/worksheet.csv",
+      "sha256": "25c6f8f086c0ee4b15f8cab7aadb464d5ae85fffbcc3fe8b7a5204e2d06ab223",
+      "origin": "Book Chapter 28 template fields"
+    },
+    {
+      "path": "templates/portfolio-allocation/README.md",
+      "sha256": "13711b520cd049365bd5e5c2e4db91cb88876245f080905a330ca8ff8831a3f8",
+      "origin": "Book Chapter 28 self-study directions"
+    },
+    {
+      "path": "templates/offering-to-operation/worked-example.md",
+      "sha256": "35ed43b081c8e9928ddbc06b24e7690a7c5f2814282881d067a0bf5139cf83af",
+      "origin": "Book Chapter 27 worked table"
+    },
+    {
+      "path": "templates/offering-to-operation/worksheet.csv",
+      "sha256": "868a3d575b4732f685fd3d8ce7267e12f407048b34ff5767823143d8ade8d62d",
+      "origin": "Book Chapter 27 template fields"
+    },
+    {
+      "path": "templates/offering-to-operation/README.md",
+      "sha256": "09312bb71f200218b240bc47fcf90a291696601c44c154a9c6cb7263f15e22d9",
+      "origin": "Book Chapter 27 self-study directions"
+    },
+    {
+      "path": "templates/architecture-record/worked-example.md",
+      "sha256": "047152a2e9d6cec8a404f21066b2d25910b9591507f63f6192e3dd7508079f1d",
+      "origin": "Book Chapter 29 worked table"
+    },
+    {
+      "path": "templates/architecture-record/worksheet.csv",
+      "sha256": "fb3623f0baa8635eb936f28c7b9681245fb06862c0a7b264a5852670ad846079",
+      "origin": "Book Chapter 29 template fields"
+    },
+    {
+      "path": "templates/architecture-record/README.md",
+      "sha256": "29d65fbd0324f241515c5e433442e32aa044f6016ccfdf2506f858954fc91d8e",
+      "origin": "Book Chapter 29 self-study directions"
+    },
+    {
       "path": "templates/information-map/worked-example.md",
-      "sha256": "4d9bfbd8ca7e8849505710fef59090d09af8084e3cf250655098803186f247c1",
+      "sha256": "7831d837abb8ef1b758f9f4602f4291bbfa1318f50abc5203e3fd516dbe4132e",
       "origin": "Book Chapter 26 worked table"
     },
     {
@@ -183,7 +243,7 @@
     },
     {
       "path": "templates/organization-map/worked-example.md",
-      "sha256": "2ff29d8951fe2be40b406c651daedacb4434720139e8225c1f96272dae765594",
+      "sha256": "ea2c96fb60ff6648aba1550ac663923124aec836cbb1b8105d1f6f96d0816f2b",
       "origin": "Book Chapter 29 worked table"
     },
     {
@@ -198,7 +258,7 @@
     },
     {
       "path": "templates/outcome-charter/worked-example.md",
-      "sha256": "c7c39692b12df8ae950b3af0d95282675937f2241e3021810b464c4def054d60",
+      "sha256": "8899b134b6d6f09153a3029defa3f84201289f06670847bf56655709dd9f1aa4",
       "origin": "Book Chapter 1 worked table"
     },
     {
@@ -213,7 +273,7 @@
     },
     {
       "path": "templates/explanation-card/worked-example.md",
-      "sha256": "62c3c312f493429228b3fa1677906eca710f6ad64566514562f0562eb741bbfe",
+      "sha256": "12169a26bd5f015e94ee0bdf65647d60386fd65088ca6ea2160293b292fc4289",
       "origin": "Book Chapter 2 worked table"
     },
     {
@@ -228,7 +288,7 @@
     },
     {
       "path": "templates/evaluation-case/worked-example.md",
-      "sha256": "11e1f4952e0e73326408b116ac4cc9f4f072d47a738ce863876317b79fbb543b",
+      "sha256": "3947420b5e933413023bdf2fa875151853ac3997f089d6749c94d2a6c73e52bd",
       "origin": "Book Chapter 4 worked table"
     },
     {
@@ -243,7 +303,7 @@
     },
     {
       "path": "templates/service-card/worked-example.md",
-      "sha256": "3e11f41f39c8665d79e9d67b0778435b3051f56ace65e5b1c4cf0010cf676502",
+      "sha256": "8629a1a9308e4b10ea3971b6440050d66b2abe6bfb0511637983e2aa2a5a36ad",
       "origin": "Book Chapter 5 worked table"
     },
     {
@@ -258,7 +318,7 @@
     },
     {
       "path": "templates/authority-card/worked-example.md",
-      "sha256": "0d92b46c69aac74ae618b3ebe73fe461b8ebfe17630cbe51b5944f53356cb389",
+      "sha256": "0b97e4feeafe269592eebdde6c2e103fca3af37a477cb4605e9c23b3f8ff7161",
       "origin": "Book Chapter 6 worked table"
     },
     {
@@ -273,7 +333,7 @@
     },
     {
       "path": "templates/architecture-decision/worked-example.md",
-      "sha256": "9a1f0162fae96f20f69e99ecdd69404956a599d733773d2290957757b7b21756",
+      "sha256": "56846d98a6cbbf7b1530dc381138801880a1d016f639ffd2170256e7c64bb7b5",
       "origin": "Book Chapter 18 worked table"
     },
     {
@@ -288,7 +348,7 @@
     },
     {
       "path": "templates/measurement-contract/worked-example.md",
-      "sha256": "7a3253f07c89660e62a392367935ebfdec52c22930572268b88a2fb500dca33e",
+      "sha256": "f2c4dbf6128b43b9ea56c141c1d8de182ca9f55e07936ce2305927c7fb7785e8",
       "origin": "Book Chapter 30 worked table"
     },
     {
@@ -303,7 +363,7 @@
     },
     {
       "path": "templates/recommendation/worked-example.md",
-      "sha256": "908c433f19f0ef0267cc6a9bae83c70e8d496a4fc39126c1da5316f2750d5b19",
+      "sha256": "81e05edbbc77d7fc95422abc6d19bbb954002ae62429299da3e53b027bfd1be4",
       "origin": "Book Chapter 31 worked table"
     },
     {
@@ -318,7 +378,7 @@
     },
     {
       "path": "templates/career-evidence/worked-example.md",
-      "sha256": "c400608fc21f2f5f4f39b8ad7a3dcfec9472caba18ee5347b40072587d93a6c8",
+      "sha256": "92f9c39e138c727bdd4053f9f987ab5c8aba68bd4e394884225d4507a49e3ebc",
       "origin": "Book Chapter 32 worked table"
     },
     {
@@ -333,7 +393,7 @@
     },
     {
       "path": "templates/README.md",
-      "sha256": "7b0c902671fe744f4f41e4dc63387b418147adb3097efbabba0bce6634b95419",
+      "sha256": "1733805ec9309e167751a449e5430da70ff31302f7eacd1c2fe54888620a617f",
       "origin": "Decision dossier guide"
     },
     {
@@ -377,6 +437,16 @@
       "origin": "Original formal-methods teaching asset"
     },
     {
+      "path": "examples/business-architecture/README.md",
+      "sha256": "2b28926f623f4ddbfb1060da2727e5015366e34ddf6065b1b8e499a9a63650c8",
+      "origin": "Original business-architecture teaching asset"
+    },
+    {
+      "path": "examples/business-architecture/decision-packets.json",
+      "sha256": "c042eed8cc269ccc6e281b3dd88ac416bb2e67859c6cd53f8141360e792f8941",
+      "origin": "Original business-architecture teaching asset"
+    },
+    {
       "path": "scripts/check_bpmn_teaching.py",
       "sha256": "9946bc9fa5fc262f5af4f40bd23bbb49ee1b8d972683830348944f6349e78811",
       "origin": "Bounded offline teaching checker"
@@ -387,6 +457,11 @@
       "origin": "Bounded offline teaching checker"
     },
     {
+      "path": "scripts/check_business_architecture_examples.py",
+      "sha256": "a61edf6a4139d4ced0d293d6de0bf2ac3fa5bc4df57489dd9229d162ae62cdd1",
+      "origin": "Bounded offline teaching checker"
+    },
+    {
       "path": "examples/formal-methods/fig-ch24-03.svg",
       "sha256": "37dfdb749867a596d8e7979f4740e59e29175c32119e18a31737ccd77a7b80a5",
       "origin": "Original editable teaching figure"
@@ -394,6 +469,16 @@
     {
       "path": "examples/formal-methods/fig-ch04-03.svg",
       "sha256": "2ba0b32b9fea4a0bdb34f8f69edf1347f9870a3854ae5f23fbd4ab578a91d873",
+      "origin": "Original editable teaching figure"
+    },
+    {
+      "path": "examples/business-architecture/fig-ch03-03.svg",
+      "sha256": "6c45e167faf9271faaf34be690f82b5b0c8c0eeeee4a6abfa8a44e2679b50c54",
+      "origin": "Original editable teaching figure"
+    },
+    {
+      "path": "examples/business-architecture/fig-ch05-02.svg",
+      "sha256": "4c6b0317a7ee0ff6aa7fd44cfb29f42b141a4537661d81f14c90a2e6bdca8d62",
       "origin": "Original editable teaching figure"
     }
   ]

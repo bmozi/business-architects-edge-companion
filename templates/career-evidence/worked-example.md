@@ -1,6 +1,6 @@
 # Career Evidence: fictional worked example
 
-From reader Chapter 32. Connect a claim to permitted evidence, contribution and observed/proposed/simulated status. These are proposed or illustrative Harbor records, not actual agreements or outcomes.
+From reader Chapter 32. Connect a claim to permitted evidence, contribution and observed/proposed/simulated status. These are proposed or illustrative teaching records, not actual agreements or outcomes.
 
 | Claim candidate | Evidence anchor | Status and honest wording |
 |---|---|---|

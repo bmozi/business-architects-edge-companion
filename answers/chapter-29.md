@@ -56,3 +56,13 @@ The register overstates Admissions acceptance. Narrow the proposed route to revi
 The map's contribution link means Admissions participates in the capability, not that it receives every case. An organization chart or responsibility matrix cannot replace the receiver's agreement. Unknowns include coverage/capacity, volume, accessible alternatives, required context for other case types, return handling, current protected-use conditions and which authority can commit each change. The sponsor can decide resources or scope, not assign review authority by implication.
 
 Score 2 each: distinguish contribution from acceptance; narrow case types correctly; route other decisions to appropriate roles without invented commitments; preserve sending/return responsibility; identify two concrete unknowns including time/capacity. Total 10. Transfer feedback checks unit/role/capability separation, information cross-map, a receiver's legitimate objection and a consequential revision.
+
+## Maintained-definition exercise: worked answer
+
+The memo's permission to approve after upload contradicts R7 regardless of CAP-02's name or revision. Explanation communicates permitted facts; an authorized review decision is a different ability. Revision 2 is a proposal and cannot authorize approval, model sending or a receiving commitment. Do not relabel this as a newly discovered real Harbor deployment.
+
+Inspect at least two connected artifacts, such as the value-stage cross-map and information concept mapping, or the G1 decision and D1/D4 receiving agreements. A corresponding message/test/initiative may also need inspection. Policy decides rule meaning; Admissions decides authorized review; the sending and receiving owners settle scope and accepted capacity; Support's proposed steward maintains the record. Engineering implements the approved semantic boundary and negative tests, not a new eligibility rule.
+
+Retain the old memo/revision as history, mark the invalid assumption and reopen its funding/release decision with the actual authorities. If the memo never led to exposure, do not invent recipients to correct. If real exposure were discovered, authorized operations would investigate and manage its consequences. No acceptance date is supplied; leave it unknown.
+
+Score 2 each for identifying invalid permission; distinguishing revision from acceptance; two consequential impact links; rightful owners and retained history; a useful transfer objection or justified refusal to merge. Total 10. Feedback on “merge both status capabilities”: ask which produces the decision and which explains it. Similar labels do not erase distinct authority. Feedback on “buy a repository”: ask whether a controlled file and clear maintainer could support this bounded decision.

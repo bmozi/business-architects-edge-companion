@@ -70,3 +70,13 @@ The packet contains a report of completed upload and a reference to a rule sourc
 Policy resolves rule meaning; the authorized review/source owner establishes review status. Engineering maps source fields to the right concepts and enforces permitted access, but cannot infer a missing decision. Negative test: an upload-complete response without an authorized decision must never produce satisfied/approved guidance. Also challenge stale rule versions and wrong-learner association. A concept map is not a substitute for checking those controls.
 
 Score 2 each: separate receipt/submission from review decision; identify missing fact without inventing rejection; produce bounded wording; name appropriate authority/source; give a negative technical test. Total 10. Transfer feedback rewards two concrete meanings, a consequential decision, a disconfirming example and a revised relationship; more boxes alone earn no credit.
+
+## Value-stage cross-map: worked answer
+
+The tidy diagonal omits proposed meaning links at S2, S3 and S4, explanation links at S1 and S4, and routing links at S1, S2 and S3. Any three justified repairs meet the exercise. An additional justified link is acceptable if the learner explains the work and preserves the matrix's bounded meaning. A dash is an unasserted relationship, not a universal prohibition.
+
+The shared receiving route may constrain several stages; improving S2 answer speed could increase unresolved traffic without accepted capacity. Current rule meaning similarly supports both review and explanations. The map supplies no prevalence, throughput, competence, commitment or start-rate evidence. “Click Submit” is a process task tied to an interface; authorized evidence review is a broader organizational ability. A parent and its children must not be counted as independent benefit opportunities.
+
+Distinguish the learner's repeated channel interactions from the organization's value delivery; a process supplies detailed work/return rules. An owned unresolved path can be an explicit bounded disposition without implying satisfaction or completion of the whole learner outcome. Policy/Admissions/Support must challenge these proposed boundaries.
+
+Score 2 each for three justified link repairs as a group; a meaningful shared dependency and changed decision; journey/value-stream/process distinction; no invented performance or authority; coherent levels/decomposition. Total 10. Feedback on a fully filled matrix: ask what decision each additional mark changes and what source sentence supports it. Transfer full credit requires two stage links and a receiver's substantive challenge.

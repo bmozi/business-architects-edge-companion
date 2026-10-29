@@ -1,6 +1,6 @@
 # Explanation Card: fictional worked example
 
-From reader Chapter 2. Connect audience and message to source meaning, authority and a changed-case check. These are proposed or illustrative Harbor records, not actual agreements or outcomes.
+From reader Chapter 2. Connect audience and message to source meaning, authority and a changed-case check. These are proposed or illustrative teaching records, not actual agreements or outcomes.
 
 | Question | Harbor's proposed answer |
 |---|---|

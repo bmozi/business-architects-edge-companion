@@ -1,6 +1,6 @@
 # Measurement Contract: fictional worked example
 
-From reader Chapter 30. Define populations, numerator/denominator or observation, source, cadence and limits. These are proposed or illustrative Harbor records, not actual agreements or outcomes.
+From reader Chapter 30. Define populations, numerator/denominator or observation, source, cadence and limits. These are proposed or illustrative teaching records, not actual agreements or outcomes.
 
 | Question | Proposed definition | Evidence owner and limit |
 |---|---|---|

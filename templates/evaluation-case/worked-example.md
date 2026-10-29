@@ -1,6 +1,6 @@
 # Evaluation Case: fictional worked example
 
-From reader Chapter 4. Specify input evidence, expected behavior, prohibited actions and reviewer authority. These are proposed or illustrative Harbor records, not actual agreements or outcomes.
+From reader Chapter 4. Specify input evidence, expected behavior, prohibited actions and reviewer authority. These are proposed or illustrative teaching records, not actual agreements or outcomes.
 
 | Field | Defined case |
 |---|---|

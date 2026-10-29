@@ -1,6 +1,6 @@
 # Architecture Decision: fictional worked example
 
-From reader Chapter 18. Make context, viable alternatives, status, consequences and revisiting conditions inspectable. These are proposed or illustrative Harbor records, not actual agreements or outcomes.
+From reader Chapter 18. Make context, viable alternatives, status, consequences and revisiting conditions inspectable. These are proposed or illustrative teaching records, not actual agreements or outcomes.
 
 | Field | Fictional proposed R7 decision |
 |---|---|

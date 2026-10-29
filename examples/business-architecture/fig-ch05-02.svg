@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="700" viewBox="0 0 1120 700"><title>Every constrained resource must fit</title><desc>Synthetic quarter: R+E+A+B uses $36,000,14 engineering days,7 policy days; R+E+B uses $24,000,9,5. Original ceilings30,000,12,6; later policy ceiling4.</desc>
+<style>text{font-family:Arial,sans-serif;fill:#173248}.title{font-size:30px;font-weight:bold}.body{font-size:21px}.small{font-size:19px}.bold{font-size:22px;font-weight:bold}</style>
+<rect width="1120" height="700" fill="#f8fafc"/>
+<text x="35" y="48" class="title" text-anchor="start">Every constrained resource must fit</text>
+<text x="35" y="84" class="body" text-anchor="start">Separate synthetic quarterly packet; E is counted once</text>
+<text x="35" y="155" class="bold" text-anchor="start">Cash ($1,000s)</text>
+<text x="35" y="221" class="body" text-anchor="start">R + E + A + B</text>
+<rect x="35" y="245" width="270.000" height="49" fill="#d7dfe6" stroke="#173248" stroke-width="2"/>
+<text x="35" y="329" class="bold" text-anchor="start">36 / limit 30</text>
+<text x="35" y="391" class="body" text-anchor="start">R + E + B</text>
+<rect x="35" y="415" width="180.000" height="49" fill="#cddfdb" stroke="#173248" stroke-width="2"/>
+<text x="35" y="499" class="bold" text-anchor="start">24 / limit 30</text>
+<path d="M260.0 193V481" stroke="#173248" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="35" y="533" class="small" text-anchor="start">Dashed line: original limit</text>
+<text x="400" y="155" class="bold" text-anchor="start">Engineering days</text>
+<text x="400" y="221" class="body" text-anchor="start">R + E + A + B</text>
+<rect x="400" y="245" width="262.500" height="49" fill="#d7dfe6" stroke="#173248" stroke-width="2"/>
+<text x="400" y="329" class="bold" text-anchor="start">14 / limit 12</text>
+<text x="400" y="391" class="body" text-anchor="start">R + E + B</text>
+<rect x="400" y="415" width="168.750" height="49" fill="#cddfdb" stroke="#173248" stroke-width="2"/>
+<text x="400" y="499" class="bold" text-anchor="start">9 / limit 12</text>
+<path d="M625.0 193V481" stroke="#173248" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="400" y="533" class="small" text-anchor="start">Dashed line: original limit</text>
+<text x="765" y="155" class="bold" text-anchor="start">Policy-review days</text>
+<text x="765" y="221" class="body" text-anchor="start">R + E + A + B</text>
+<rect x="765" y="245" width="262.500" height="49" fill="#d7dfe6" stroke="#173248" stroke-width="2"/>
+<text x="765" y="329" class="bold" text-anchor="start">7 / limit 6</text>
+<text x="765" y="391" class="body" text-anchor="start">R + E + B</text>
+<rect x="765" y="415" width="187.500" height="49" fill="#cddfdb" stroke="#173248" stroke-width="2"/>
+<text x="765" y="499" class="bold" text-anchor="start">5 / limit 6</text>
+<path d="M990.0 193V481" stroke="#173248" stroke-width="2" stroke-dasharray="7 5"/>
+<path d="M915.0 368V481" stroke="#173248" stroke-width="3"/>
+<text x="765" y="533" class="body" text-anchor="start">Later policy limit: 4 days</text>
+<text x="35" y="592" class="bold" text-anchor="start">R + E + A + B exceeds all three original limits.</text>
+<text x="35" y="632" class="body" text-anchor="start">R + E + B fits initially; it fails when policy capacity falls to four days.</text>
+<text x="35" y="670" class="small" text-anchor="start">Feasibility is not a benefit ranking or approval to start.</text>
+</svg>

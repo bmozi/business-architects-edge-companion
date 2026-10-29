@@ -1,6 +1,6 @@
 # Information Map: fictional worked example
 
-From reader Chapter 26. Separate business concepts, meanings, stewardship and evidence from physical fields. These are proposed or illustrative Harbor records, not actual agreements or outcomes.
+From reader Chapter 26. Separate business concepts, meanings, stewardship and evidence from physical fields. These are proposed or illustrative teaching records, not actual agreements or outcomes.
 
 | Business concept | Meaning needed for this decision | Proposed steward or deciding role |
 |---|---|---|

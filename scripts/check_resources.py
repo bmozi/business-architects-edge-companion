@@ -46,5 +46,6 @@ for path in (root/'templates').glob('*/worksheet.csv'):
 for path in [root/'README.md',*root.glob('answers/*.md'),*root.glob('templates/**/*.md'),*root.glob('business-practice/**/*.md')]:
  for target in re.findall(r'\]\(([^)]+)\)',path.read_text()):
   if not target.startswith(('http','#')):assert (path.parent/target.split('#')[0]).exists(),(path,target)
-print('PASS: four business kits, 32 numbered answer keys, eleven templates, SHA-256 identities, local links and synthetic arithmetic.')
+assert len(list((root/'templates').glob('*/worksheet.csv'))) == 15
+print('PASS: four business kits, 32 numbered answer keys, fifteen templates, SHA-256 identities, local links and synthetic arithmetic.')
 print('Scope: offline file/arithmetic checks; no live system, business result or learner validation.')

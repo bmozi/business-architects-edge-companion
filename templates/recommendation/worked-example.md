@@ -1,6 +1,6 @@
 # Recommendation: fictional worked example
 
-From reader Chapter 31. Bring outcome, feasible choices, owner gates, cost and reversal into one recommendation. These are proposed or illustrative Harbor records, not actual agreements or outcomes.
+From reader Chapter 31. Bring outcome, feasible choices, owner gates, cost and reversal into one recommendation. These are proposed or illustrative teaching records, not actual agreements or outcomes.
 
 | Field | Capstone entry and test |
 |---|---|

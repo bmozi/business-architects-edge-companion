@@ -4,6 +4,10 @@ These original book examples and worksheets support your decision dossier. Use s
 
 | Book chapter | Template |
 |---|---|
+| 26 | [Value Stage Map](value-stage-map/README.md) |
+| 28 | [Portfolio Allocation](portfolio-allocation/README.md) |
+| 27 | [Offering To Operation](offering-to-operation/README.md) |
+| 29 | [Architecture Record](architecture-record/README.md) |
 | 26 | [Information Map](information-map/README.md) |
 | 29 | [Organization Map](organization-map/README.md) |
 | 1 | [Outcome Charter](outcome-charter/README.md) |

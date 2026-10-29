@@ -1,6 +1,6 @@
 # Authority Card: fictional worked example
 
-From reader Chapter 6. Separate a proposal from a currently permitted action and preserve human ownership. These are proposed or illustrative Harbor records, not actual agreements or outcomes.
+From reader Chapter 6. Separate a proposal from a currently permitted action and preserve human ownership. These are proposed or illustrative teaching records, not actual agreements or outcomes.
 
 | Field | Harbor candidate decision |
 |---|---|

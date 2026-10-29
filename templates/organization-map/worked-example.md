@@ -1,6 +1,6 @@
 # Organization Map: fictional worked example
 
-From reader Chapter 29. Connect units and roles to capabilities while verifying actual commitments. These are proposed or illustrative Harbor records, not actual agreements or outcomes.
+From reader Chapter 29. Connect units and roles to capabilities while verifying actual commitments. These are proposed or illustrative teaching records, not actual agreements or outcomes.
 
 | Functional grouping | Role to identify and verify | Capability contribution | Commitment this map does not establish |
 |---|---|---|---|
