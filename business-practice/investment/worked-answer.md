@@ -1,6 +1,6 @@
 # Chapter 28: Choose investments under uncertainty — worked answers
 
-The main Chapter 28 Harbor ledger and this paper exercise are **different invented cases**. Neither supplies a live rate, vendor quote, WGU cost, saved payroll, benefit forecast, or measured learner outcome. Require learners to show formulas and fit logic before making a recommendation.
+The main Chapter 28 Harbor ledger and this paper exercise are **different invented cases**. Neither supplies a live rate, vendor quote, actual institutional cost, saved payroll, benefit forecast, or measured learner outcome. Require learners to show formulas and fit logic before making a recommendation.
 
 ## Purpose and pacing
 
